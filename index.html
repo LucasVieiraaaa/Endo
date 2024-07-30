@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="/Endo/styles/super-card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Endocrino</title>
 </head>
 
@@ -82,9 +84,9 @@
 
     <div class="content">
         <div class="shadow-box">
-            <img style="height: 400px;" src="/Endo/base/media/imgs/person-user.png" alt="Imagem" class="content-image">
+            <img style="height: 350px;" src="/Endo/base/media/imgs/person-user.png" alt="Imagem" class="content-image">
             <div>
-                <h3>Example Name</h2>
+                <h3>Example Name</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, soluta. Voluptas deleniti
                         beatae quasi maiores. Soluta commodi assumenda architecto nam, amet cupiditate nulla expedita
                         eos, voluptate quos excepturi explicabo praesentium saepe est debitis vel facilis illum dolor a
@@ -97,30 +99,71 @@
         </div>
     </div>
     <div style="background-color: #1d201d; padding: 30px;">
-        <div class="content-01">
-            <h2>Titulo</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur provident delectus modi
-                repellendus
-                eum atque alias odit sunt culpa!</p>
-            <button class="btn" type="button" onclick="window.location.href='#';">Conheça Nossos Cursos</button>
+        <h2 style="color: white;text-align: center;">Artigos Cientificos</h2>
+        <br>
+        <div class="card-carousel">
+            <div class="card" id="1">
+                <div class="image-container"></div>
+                <p>1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+            </div>
+            <div class="card" id="2">
+                <div class="image-container"></div>
+                <p>2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+            </div>
+            <div class="card" id="3">
+                <div class="image-container"></div>
+                <p>3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+            </div>
+            <div class="card" id="4">
+                <div class="image-container"></div>
+                <p>4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+            </div>
+            <div class="card" id="5">
+                <div class="image-container"></div>
+                <p>5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+            </div>
+            <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
         </div>
     </div>
     <br>
     <hr>
-    <br>
-    <div class="main-container">
-        <div class="centered-container">
-            <div class="centered-card">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aperiam!</div>
-            <div class="centered-card">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aperiam!</div>
-            <div class="centered-card">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aperiam!</div>
-
+    <div style="display: flex; justify-content: center; gap: 40px; margin-top: 20px;">
+        <div class="content-01" style="color: rgb(0, 0, 0); border: 0px; margin: 0px; padding: 20px;">
+            <h2>Titulo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur provident delectus modi repellendus eum atque alias odit sunt culpa!</p>
+            <button class="btn" type="button" onclick="window.location.href='#';">Conheça Nossos Cursos</button>
+        </div>
+        <div class="content-01" style="color: rgb(0, 0, 0); border: 0px; margin: 0px; padding: 20px;">
+            <h2>Titulo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur provident delectus modi repellendus eum atque alias odit sunt culpa!</p>
+            <button class="btn" type="button" onclick="window.location.href='#';">Conheça Nossos Cursos</button>
         </div>
     </div>
-    <br>
+    <br><br>
+    <footer>
+        <p style="color: #818181;" >v 0.1</p>
+        <div>
+            <p style="display: inline;">
+                Contato: (xx) xxxx-xxxx
+            </p>
+            <div style="display: inline; margin-left: 10px;">
+                <a href="https://www.instagram.com" target="_blank" style="color: white; margin: 0 10px;">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank" style="color: white; margin: 0 10px;">
+                    <i class="fab fa-facebook-f fa-2x"></i>
+                </a>
+                <a href="https://wa.me/5511999999999" target="_blank" style="color: white; margin: 0 10px;">
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
+    <script src="/Endo/scripts/super-card.js"></script>
 </body>
 
 </html>
