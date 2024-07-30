@@ -3,6 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
+    color: #7b7a7b;
 }
 
 header {
@@ -12,7 +13,6 @@ header {
     background-color: #1d201d;
     padding: 30px;
     padding-right: 70px;
-    color: white;
 }
 
 .logo img {
@@ -81,6 +81,31 @@ nav ul li a:hover {
     border-radius: 5px;
     bottom: 20px;
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background: none;
+    font-size: 30px;
+    color: #fff;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.carousel-control-prev-icon::before {
+    content: '\f060';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.carousel-control-next-icon::before {
+    content: '\f061';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    color: #f0f0f0;
+    transform: scale(1.1);
+}
 
 .content {
     flex: 1;
@@ -108,9 +133,7 @@ nav ul li a:hover {
     width: auto;
     margin-right: 50px;
     border-radius: 10px;
-    -webkit-box-shadow: 10px 2px 30px 0px rgba(0, 0, 0, 0.39);
-    -moz-box-shadow: 10px 2px 30px 0px rgba(0, 0, 0, 0.39);
-    box-shadow: 10px 2px 20px 0px rgba(0, 0, 0, 0.39);
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
     margin-right: 50px;
 }
 
@@ -140,7 +163,7 @@ nav ul li a:hover {
     width: 70%;
     height: 20%;
     font-size: 15px;
-    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    transition: transform 0.3s ease-in-out, background-color 0.2s ease-in-out;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -153,10 +176,6 @@ nav ul li a:hover {
     background-color: #225e1c;
     color: white;
     font-size: 15px;
-}
-
-.btn a {
-    text-decoration: none;
 }
 
 hr {
@@ -184,7 +203,7 @@ footer p {
 .footer-icons-social-media {
     color: white;
     margin: 0 10px;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .footer-icons-social-media:hover {
