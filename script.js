@@ -34,3 +34,8 @@ detailsElement.addEventListener('toggle', function (event) {
         header.style.height = 'initial';
     }
 });
+
+
+
+let version = "0.13v";
+document.getElementById('systemVersion').textContent = version;

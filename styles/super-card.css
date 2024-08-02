@@ -11,7 +11,7 @@
   }
   .card-carousel {
     --card-width: 80%;
-    --card-max-width: 280px;
+    --card-max-width: 350px;
     --card-height: 350px;
     --carousel-min-width: 600px;
     z-index: 1;
