@@ -13,6 +13,8 @@ header {
     background-color: #1d201d;
     padding: 30px;
     padding-right: 70px;
+    transition: height 0.3s ease;
+    overflow: visible;
 }
 
 .logo img {
@@ -28,17 +30,95 @@ nav ul {
 
 nav ul li {
     margin-left: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
-nav ul li a {
+nav ul li a,
+summary {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 17px;
+    transition: 0.3s;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a:hover,
+summary:hover {
+    color: #3aa330;
+}
+
+summary::marker {
+    color: white;
+}
+
+details {
+    position: relative;
+}
+
+details ul {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: fadeIn 0.5s ease-in-out;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #1d201d;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 1;
+}
+
+details ul li {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+details ul li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
     transition: 0.2s;
 }
 
-nav ul li a:hover {
-    text-decoration: none;
+details ul li a:hover {
+    color: #3aa330;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+details summary {
+    list-style: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    padding: 0;
+    margin: 0;
+    transition: 0.2s;
+}
+
+details summary:hover {
+    color: #3aa330;
+}
+
+details[open] summary {
     color: #3aa330;
 }
 
@@ -81,6 +161,7 @@ nav ul li a:hover {
     border-radius: 5px;
     bottom: 20px;
 }
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background: none;
@@ -110,7 +191,8 @@ nav ul li a:hover {
 .content {
     flex: 1;
     background-color: #ffffff;
-    padding: 40px;
+    padding: 50px;
+    padding-bottom: 20px;
     text-align: left;
     box-sizing: border-box;
     display: flex;
@@ -123,9 +205,10 @@ nav ul li a:hover {
     align-items: center;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 10px;
-    padding-right: 40px;
+    padding-right: 17.9%;
     border-radius: 1em;
     background-color: #ffffff;
+    height: auto;
 }
 
 .content-image {
@@ -162,24 +245,70 @@ nav ul li a:hover {
     background-color: #1d201d;
     color: #ffffff;
     width: 70%;
-    height: 50px; /* Ajuste para um tamanho mais fixo */
+    height: 50px;
     font-size: 15px;
-    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-radius 0.3s ease-in-out; /* Transições para múltiplas propriedades */
-    padding: 10px 20px; /* Ajuste o padding para manter o alinhamento */
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+    padding: 10px 20px;
     border: none;
     border-radius: 1em;
     text-align: center;
     box-shadow: 5px 5px 20px rgba(189, 189, 189, 0.6);
-    cursor: pointer; /* Adiciona um cursor de pointer para indicar que é clicável */
 }
 
 .btn:hover {
-    transform: scale(1.2) rotate(-2deg); 
+    transform: scale(1.07);
     background-color: #225e1c;
     color: white;
-    box-shadow: 10px 10px 30px rgba(189, 189, 189, 0.6); 
+    box-shadow: 10px 10px 30px rgba(189, 189, 189, 0.6);
     border-radius: 10px;
-    animation: pulse 0.8s ease-in-out infinite; 
+}
+
+.btn01 {
+    background-color: #1d201d;
+    color: #ffffff;
+    width: 450px;
+    margin-top: 20px;
+    height: 55px;
+    font-size: 15px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+    padding: 10px 20px;
+    padding-bottom: 55px;
+    border: none;
+    border-radius: 1em;
+    text-align: center;
+    box-shadow: 5px 5px 20px rgba(189, 189, 189, 0.6);
+}
+
+.btn01:hover {
+    transform: scale(1.07);
+    background-color: #225e1c;
+    color: white;
+    box-shadow: 10px 10px 30px rgba(189, 189, 189, 0.6);
+    border-radius: 10px;
+}
+
+.btn02 {
+    background-color: #1d201d;
+    color: #ffffff;
+    width: 450px;
+    margin-top: 20px;
+    height: 45px;
+    font-size: 15px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+    padding: 10px 20px;
+    padding-bottom: 45px;
+    border: none;
+    border-radius: 1em;
+    text-align: center;
+    box-shadow: 5px 5px 20px rgba(189, 189, 189, 0.6);
+}
+
+.btn02:hover {
+    transform: scale(1.07);
+    background-color: #225e1c;
+    color: white;
+    box-shadow: 10px 10px 30px rgba(189, 189, 189, 0.6);
+    border-radius: 10px;
 }
 
 hr {

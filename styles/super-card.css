@@ -86,8 +86,8 @@
   .image-container::after {
     content: "";
     display: block;
-    width: 120%;
-    height: 120%;
+    width: 125%;
+    height: 125%;
     border: solid 3px rgba(0,0,0,.1);
     border-radius: 100%;
     position: absolute;

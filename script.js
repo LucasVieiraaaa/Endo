@@ -14,3 +14,23 @@ $(document).ready(function() {
         $current.prev().removeClass('fade-out');
     });
 });
+
+
+document.addEventListener('click', function (event) {
+    const details = document.querySelectorAll('details');
+    details.forEach(detail => {
+        if (!detail.contains(event.target)) {
+            detail.removeAttribute('open');
+        }
+    });
+});
+
+const detailsElement = document.querySelector('details');
+detailsElement.addEventListener('toggle', function (event) {
+    const header = document.getElementById('main-header');
+    if (detailsElement.open) {
+        header.style.height = 'auto';
+    } else {
+        header.style.height = 'initial';
+    }
+});
