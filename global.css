@@ -49,7 +49,8 @@ summary {
 
 nav ul li a:hover,
 summary:hover {
-    color: #3aa330;
+    color: #229251;
+    text-decoration: none;
 }
 
 summary::marker {
@@ -90,7 +91,7 @@ details ul li a {
 }
 
 details ul li a:hover {
-    color: #3aa330;
+    color: #229251;
 }
 
 @keyframes fadeIn {
@@ -115,11 +116,11 @@ details summary {
 }
 
 details summary:hover {
-    color: #3aa330;
+    color: #229251;
 }
 
 details[open] summary {
-    color: #3aa330;
+    color: #229251;
 }
 
 .carousel {
@@ -257,7 +258,7 @@ details[open] summary {
 
 .btn:hover {
     transform: scale(1.07);
-    background-color: #225e1c;
+    background-color: #229251;
     color: white;
     box-shadow: 10px 10px 30px rgba(189, 189, 189, 0.6);
     border-radius: 10px;
@@ -281,7 +282,7 @@ details[open] summary {
 
 .btn01:hover {
     transform: scale(1.07);
-    background-color: #225e1c;
+    background-color: #229251;
     color: white;
     box-shadow: 10px 10px 30px rgba(189, 189, 189, 0.6);
     border-radius: 10px;
@@ -292,11 +293,11 @@ details[open] summary {
     color: #ffffff;
     width: 450px;
     margin-top: 20px;
-    height: 45px;
+    height: 55px;
     font-size: 15px;
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-radius 0.3s ease-in-out;
     padding: 10px 20px;
-    padding-bottom: 45px;
+    padding-bottom: 55px;
     border: none;
     border-radius: 1em;
     text-align: center;
@@ -305,19 +306,19 @@ details[open] summary {
 
 .btn02:hover {
     transform: scale(1.07);
-    background-color: #225e1c;
+    background-color: #229251;
     color: white;
     box-shadow: 10px 10px 30px rgba(189, 189, 189, 0.6);
     border-radius: 10px;
 }
 
 hr {
-    display: inline;
-    text-align: center;
-    width: 72.6%;
-    color: rgb(233, 233, 233);
-    border: 1px solid;
-    margin-left: 250px;
+    width: 90%;
+    max-width: 700px;
+    border: 1px solid rgb(233, 233, 233);
+    margin: 0 auto;
+    display: block;
+    opacity: 0.7;
 }
 
 footer {

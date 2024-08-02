@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
     $('#carouselExampleIndicators').on('slide.bs.carousel', function (e) {
         var $current = $(e.relatedTarget);
         var $prev = $(e.relatedTarget).prev();
@@ -15,14 +15,28 @@ $(document).ready(function() {
     });
 });
 
-
-document.addEventListener('click', function (event) {
+function openSummary(event) {
     const details = document.querySelectorAll('details');
     details.forEach(detail => {
-        if (!detail.contains(event.target)) {
+        if (detail.contains(event.target)) {
+            detail.setAttribute('open', 'true');
+        } else {
             detail.removeAttribute('open');
         }
     });
+}
+
+document.addEventListener('mouseover', function(event) {
+    const details = document.querySelectorAll('details');
+    let insideAnyDetails = false;
+    details.forEach(detail => {
+        if (detail.contains(event.target)) {
+            insideAnyDetails = true;
+        }
+    });
+    if (!insideAnyDetails) {
+        details.forEach(detail => detail.removeAttribute('open'));
+    }
 });
 
 const detailsElement = document.querySelector('details');
