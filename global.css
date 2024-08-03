@@ -115,7 +115,31 @@ details ul li a {
 }
 
 details ul li a:hover {
-    color: #229251;
+    /* color: #229251; */
+}
+.details-social-media-01{
+    /* Comments */
+}
+.details-social-media-01:hover{
+    color: rgb(46, 130, 255);
+}
+.details-social-media-02{
+    /* Comments */
+    transition: 0.2s;
+}
+.details-social-media-02:hover{
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.details-social-media-04{
+    /* Comments */
+}
+.details-social-media-04:hover{
+    color: rgb(255, 93, 43);
 }
 
 .li-border-bottom {

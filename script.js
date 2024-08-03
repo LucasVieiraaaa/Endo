@@ -1,3 +1,4 @@
+//Animação do Carrosel
 $(document).ready(function () {
     $('#carouselExampleIndicators').on('slide.bs.carousel', function (e) {
         var $current = $(e.relatedTarget);
@@ -14,7 +15,7 @@ $(document).ready(function () {
         $current.prev().removeClass('fade-out');
     });
 });
-
+//Animação do summary
 function openSummary(event) {
     const details = document.querySelectorAll('details');
     details.forEach(detail => {
@@ -26,6 +27,8 @@ function openSummary(event) {
     });
 }
 
+
+//Animação quando sai do summary
 document.addEventListener('mouseover', function(event) {
     const details = document.querySelectorAll('details');
     let insideAnyDetails = false;
@@ -49,6 +52,8 @@ detailsElement.addEventListener('toggle', function (event) {
     }
 });
 
+
+//Animação Header Encolher
 document.addEventListener("DOMContentLoaded", function() {
     const header = document.querySelector("header");
 
@@ -69,6 +74,18 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.classList.add("fade-in");
 });
 
-
+//Versão do Sistema
 let version = "0.17v";
 document.getElementById('systemVersion').textContent = version;
+
+//Redes-Sociais
+let linkedin = 'Linkedin';
+let instagram = 'Instagram';
+let whatsapp = 'Whatsapp';
+let email = 'Email';
+
+
+document.getElementById('Linkedin').textContent = linkedin;
+document.getElementById('Instagram').textContent = instagram;
+document.getElementById('Whatsapp').textContent = whatsapp;
+document.getElementById('Email').textContent = email;
