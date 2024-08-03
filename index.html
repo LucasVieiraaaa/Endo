@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="/Endo/styles/super-card.css">
+    <link rel="stylesheet" href="/Endo/styles/text-and-colors.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Cursos de Capacitação em Endoscopia</title>
 </head>
@@ -20,7 +21,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#" style="font-size: 19px;">Home</a></li>
+                <li><a href="#" class="text-19px">Home</a></li>
                 <li>
                     <details>
                         <summary onmouseover="openSummary(event)">Cursos</summary>
@@ -31,7 +32,7 @@
                         </ul>
                     </details>
                 </li>
-                <li><a href="#contact" style="font-size: 19px;">Contato</a></li>
+                <li><a href="#contact" class="text-19px">Contato</a></li>
             </ul>
             <br>
 
@@ -98,8 +99,8 @@
                 <img style="height: 300px;" src="/Endo/base/media/imgs/person-user.png" alt="Imagem"
                     class="content-image">
                 <div>
-                    <h3>Example Name</h3>
-                    <p style="text-align: justify;">
+                    <h3>Marcos Clarêncio<img src="base/media/icons/1021799.png" alt="" class="small-icon"></h3>
+                    <p class="text-justify">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, soluta. Voluptas deleniti
                         beatae quasi maiores. Soluta commodi assumenda architecto nam, amet cupiditate nulla expedita
                         eos, voluptate quos excepturi explicabo praesentium saepe est debitis vel facilis illum dolor a
@@ -109,7 +110,7 @@
                         facilis dolore odit rerum dolor quidem commodi cumque vero aperiam ex voluptatibus quia
                         veritatis perferendis laudantium, minus voluptas nesciunt consequatur autem quis optio?
                     </p>
-                    <a href="src/pages/MedicinaEndo/medicinaEndo.html">
+                    <a type="button" href="src/pages/MedicinaEndo/medicinaEndo.html">
                         <button class="btn01" type="button">
                             Conheça Nossos Cursos de <br> Endoscopia Médica
                         </button>
@@ -122,9 +123,9 @@
             <div class="shadow-box flex-row-reverse" style="padding-right: 20px;  padding-left: 17.9%;">
                 <img style="height: 300px; padding: 0px; margin-right: 0px;" src="/Endo/base/media/imgs/person-user.png"
                     alt="Imagem" class="content-image">
-                <div style="text-align: right; padding-right: 50px;">
-                    <h3 style="text-align: left;">Example Name</h3>
-                    <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+                <div class="text-right" style="padding-right: 50px;">
+                    <h3 class="text-left">Example Name <img src="base/media/icons/2719553.png" alt="" class="small-icon-02"></h3>
+                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
                         soluta. Voluptas deleniti
                         beatae quasi maiores. Soluta commodi assumenda architecto nam, amet cupiditate nulla expedita
                         eos, voluptate quos excepturi explicabo praesentium saepe est debitis vel facilis illum dolor a
@@ -145,7 +146,7 @@
 
         <!-- responsive Drag-Card beggining -->
         <div style="background-color: #1d201d; padding: 30px;">
-            <h3 style="color: white;" class="text-center">Artigos Cientificos / Casos</h3>
+            <h3 class="text-center soft-white">Artigos Cientificos / Casos</h3>
             <br>
             <div class="card-carousel">
                 <div class="card" id="1">
@@ -173,23 +174,22 @@
         </div>
         <!-- responsive Drag-Card end -->
 
-        <div
-            style="padding: 80px;display: flex; justify-content: center; gap: 40px; background-image: url(base/media/imgs/carrosel04.jpg);">
+        <div style="padding: 80px;display: flex; justify-content: center; gap: 40px; background-image: url(base/media/imgs/carrosel04.jpg);">
             <div class="content-01" style="border: 0px; margin: 0px;  padding: 50px;text-align: center;">
-                <h2>Titulo</h2>
+                <h2>Médicina</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur provident delectus modi
                     repellendus eum atque alias odit sunt culpa!</p>
-                <button class="btn" type="button" onclick="window.location.href='#';">Conheça Nossos Cursos</button>
+                <button class="btn" type="button" onclick="window.location.href='#';">Cursos de Endoscopia Médica</button>
             </div>
             <div class="content-01" style="border: 0px; margin: 0px; padding: 50px;text-align: center;">
-                <h2>Titulo</h2>
+                <h2>Enfermagem</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur provident delectus modi
                     repellendus eum atque alias odit sunt culpa!</p>
-                <button class="btn" type="button" onclick="window.location.href='#';">Conheça Nossos Cursos</button>
+                <button class="btn" type="button" onclick="window.location.href='#';">Cursos de Endoscopia em Enfermagem</button>
             </div>
         </div>
         <footer>
-            <p style="color: #818181;" id="systemVersion">Loading...</p>
+            <p class="dark-grey" id="systemVersion">Loading...</p>
             <div>
                 <p style="display: inline;">
                     (xx) xxxx-xxxx

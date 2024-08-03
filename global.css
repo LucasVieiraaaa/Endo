@@ -31,6 +31,15 @@ header.shrink {
 .logo img {
     height: 60px;
 }
+.small-icon{
+    height: 45px;
+    padding-left: 20px;
+}
+
+.small-icon-02{
+    height: 45px;
+    padding-left: 20px;
+}
 
 nav ul {
     list-style: none;
@@ -259,7 +268,7 @@ details[open] summary {
 .btn {
     background-color: #1d201d;
     color: #ffffff;
-    width: 70%;
+    width: 92%;
     height: 50px;
     font-size: 15px;
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-radius 0.3s ease-in-out;
