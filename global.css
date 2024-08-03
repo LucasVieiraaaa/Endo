@@ -110,6 +110,7 @@ details ul li a:hover {
         opacity: 0;
         transform: translateY(-10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -204,7 +205,9 @@ details[open] summary {
     flex: 1;
     background-color: #ffffff;
     padding: 50px;
-    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 10px;
     text-align: left;
     box-sizing: border-box;
     display: flex;
@@ -285,6 +288,7 @@ details[open] summary {
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-radius 0.3s ease-in-out;
     padding: 10px 20px;
     padding-bottom: 55px;
+    margin-top: 0px;
     border: none;
     border-radius: 1em;
     text-align: center;
@@ -309,6 +313,7 @@ details[open] summary {
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-radius 0.3s ease-in-out;
     padding: 10px 20px;
     padding-bottom: 55px;
+    margin-top: 0px;
     border: none;
     border-radius: 1em;
     text-align: center;
