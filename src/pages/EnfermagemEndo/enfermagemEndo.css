@@ -1,0 +1,184 @@
+.div-center {
+    display: grid;
+    justify-content: center;
+    text-align: justify;
+    width: 50%;
+    height: 170px;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    border-radius: 1em;
+    -webkit-box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+    box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+
+    & h3 {
+        margin-top: 4%;
+        text-align: center;
+    }
+}
+
+.content-cursos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    &p{
+        text-align: justify;
+    }
+}
+
+.content-cursos-content {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    padding-bottom: 10px;
+    margin: 0px;
+    border-radius: 0em;
+    width: 470px;
+    height: auto;
+}
+
+.content-cursos-content h3{
+    font-size: 35px;
+}
+
+.content-cursos-content p{
+    font-size: 15px;
+}
+
+.sobreOcurso {
+    margin: 0 auto;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    max-width: 800px;
+    border-radius: 1em;
+}
+
+.img-med {
+    width: 100%;
+    height: 500px;
+}
+.centralizador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.form-inscricao {
+    display: grid;
+    gap: 0.4em;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 1em;
+    background-color: #FFFFFF;
+    border: solid 1px rgb(211, 211, 211);
+    padding: 1em;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 50px;
+    border: solid 0px transparent;
+    -webkit-box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+    box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+}
+
+.center-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 50%;
+}
+
+.form-icon {
+    width: 70px;
+    height: auto;
+}
+
+.center-icon-02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+    padding-bottom: 20px;
+    border-radius: 50%;
+}
+
+.form-group {
+    font-size: 14px;
+}
+
+.form-control {
+    width: 100%;
+    height: 50px;
+    padding: 0.75em;
+    border-radius: 0.5em;
+    border: solid 1px #ddd;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: solid 0px transparent;
+    background-color: rgb(245, 245, 245);
+}
+
+.form-control:focus {
+    outline: none;
+    border-width: 2px;
+    box-shadow: none;
+}
+
+.form-control.valid {
+    border-color: #229251;
+    box-shadow: 0 0 0 1px #229251;
+}
+
+.form-control.invalid {
+    border-color: red solid;
+    box-shadow: 0 0 0 1px red;
+}
+
+.btn03 {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    border: solid 0px transparent;
+    padding: 1em;
+    border-radius: 0.5em;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.btn03:hover {
+    width: 100%;
+    background-color: #229251;
+    color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+h3.text-center {
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: #333;
+}
+
+.valid {
+    font-size: 17px;
+    color: #229251;
+}
+
+.invalid {
+    font-size: 17px;
+    color: red;
+}

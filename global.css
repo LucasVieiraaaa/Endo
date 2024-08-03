@@ -10,10 +10,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1d201d;
+    background-color: #101110;
     padding: 30px;
     padding-right: 70px;
-    transition: height 0.3s ease;
+    height: 120px;
+    transition: height 0.3s ease, padding 0.3s ease;
     overflow: visible;
     position: fixed;
     top: 0;
@@ -21,6 +22,11 @@ header {
     z-index: 1000;
 }
 
+header.shrink {
+    height: 70px;
+    padding: 15px;
+    padding-right: 70px;
+}
 
 .logo img {
     height: 60px;

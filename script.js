@@ -49,6 +49,20 @@ detailsElement.addEventListener('toggle', function (event) {
     }
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    const header = document.querySelector("header");
+
+    let lastScrollY = window.scrollY;
+
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > lastScrollY && window.scrollY > 100) {
+            header.classList.add("shrink");
+        } else if (window.scrollY < lastScrollY) {
+            header.classList.remove("shrink");
+        }
+        lastScrollY = window.scrollY;
+    });
+});
 
 
 let version = "0.13v";
