@@ -23,7 +23,6 @@ function submitForm() {
         }
     }
 
-    // Valida todos os campos
     validateField('name', name);
     validateField('email', email);
     validateField('phone', phone);

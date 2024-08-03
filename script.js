@@ -65,5 +65,5 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-let version = "0.14v";
+let version = "0.15v";
 document.getElementById('systemVersion').textContent = version;
