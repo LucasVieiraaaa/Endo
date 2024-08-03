@@ -99,7 +99,7 @@ details ul {
 details ul li {
     margin: 0;
     padding: 0;
-    height: 50px;
+    height: 65px;
 }
 
 details ul li a {
@@ -108,6 +108,7 @@ details ul li a {
     color: white;
     text-decoration: none;
     transition: 0.2s;
+    width: 170px;
 }
 
 details ul li a:hover {
