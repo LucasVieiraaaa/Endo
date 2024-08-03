@@ -183,7 +183,7 @@ details[open] summary {
 
 .carousel {
     width: 100%;
-    height: 650px;
+    height: 600px;
 }
 
 .carousel-inner {
@@ -408,16 +408,17 @@ footer p {
 }
 
 
-/* @keyframes fadeIn {
+@keyframes fade-in-class  {
     from {
-        opacity: 1;
+        opacity: 0;
     }
     to {
-        opacity: 2;
+        opacity: 1;
+
     }
 }
 
-.fade-in {
-    animation: fadeIn 0.35s ease-in-out;
+.fade-in-class {
+    animation: fadeIn 0.1s ease-in-out;
     animation-fill-mode: forwards;
-} */
+}
