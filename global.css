@@ -31,12 +31,13 @@ header.shrink {
 .logo img {
     height: 60px;
 }
-.small-icon{
+
+.small-icon {
     height: 45px;
     padding-left: 20px;
 }
 
-.small-icon-02{
+.small-icon-02 {
     height: 51px;
     padding-left: 20px;
 }
@@ -91,7 +92,9 @@ details ul {
     padding: 0;
     margin: 0;
     background-color: #1d201d;
-    border-radius: 5px;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+
     text-align: center;
     z-index: 1;
 }
@@ -99,7 +102,7 @@ details ul {
 details ul li {
     margin: 0;
     padding: 0;
-    height: 65px;
+    height: auto;
 }
 
 details ul li a {
@@ -113,6 +116,15 @@ details ul li a {
 
 details ul li a:hover {
     color: #229251;
+}
+
+.li-border-bottom {
+    border-bottom: solid 1px rgb(61, 61, 61);
+}
+
+.ul-color-grid {
+    background-color: rgba(29, 32, 29, 0.719);
+    display: grid;
 }
 
 @keyframes fadeIn {
@@ -369,4 +381,21 @@ footer p {
 .footer-icons-social-media:hover {
     color: #229251;
     margin: 0 10px;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.35s ease-in-out;
+    animation-fill-mode: forwards;
 }

@@ -64,6 +64,11 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+//Animação fade-in quando a tela é carregada
+document.addEventListener("DOMContentLoaded", function() {
+    document.body.classList.add("fade-in");
+});
 
-let version = "0.15v";
+
+let version = "0.17v";
 document.getElementById('systemVersion').textContent = version;
