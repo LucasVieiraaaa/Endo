@@ -1,4 +1,4 @@
-//Animação do Carrosel
+//Animação do Carousel
 $(document).ready(function () {
     $('#carouselExampleIndicators').on('slide.bs.carousel', function (e) {
         var $current = $(e.relatedTarget);
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 //Versão do Sistema
-let version = "0.18v";
+let version = "0.19v";
 document.getElementById('systemVersion').textContent = version;
 
 //Redes-Sociais

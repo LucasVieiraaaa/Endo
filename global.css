@@ -13,7 +13,7 @@ header {
     background-color: #101110;
     padding: 30px;
     padding-right: 70px;
-    height: 120px;
+    height: 150px;
     transition: height 0.3s ease, padding 0.3s ease;
     overflow: visible;
     position: fixed;
@@ -29,7 +29,9 @@ header.shrink {
 }
 
 .logo img {
-    height: 60px;
+    height: 100px;
+    border-radius: 1em;
+    box-shadow: 5px 15px 12px rgba(0, 0, 0, 0.1);
 }
 
 .small-icon {
@@ -70,7 +72,7 @@ summary {
 
 nav ul li a:hover,
 summary:hover {
-    color: #229251;
+    color: #40b9fa;
     text-decoration: none;
 }
 
@@ -134,7 +136,12 @@ details ul li a:hover {
     background-clip: text;
     color: transparent;
 }
-
+.details-social-media-03{
+    /* Comments */
+}
+.details-social-media-03:hover{
+    color: rgb(61, 163, 52);
+}
 .details-social-media-04{
     /* Comments */
 }
@@ -174,11 +181,11 @@ details summary {
 }
 
 details summary:hover {
-    color: #229251;
+    color: #34b4f2;
 }
 
 details[open] summary {
-    color: #229251;
+    color: #34b4f2;
 }
 
 .carousel {
@@ -318,7 +325,7 @@ details[open] summary {
 
 .btn:hover {
     transform: scale(1.07);
-    background-color: #229251;
+    background-color: #34b4f2;
     color: white;
     box-shadow: 10px 10px 30px rgba(189, 189, 189, 0.6);
     border-radius: 10px;
@@ -343,7 +350,7 @@ details[open] summary {
 
 .btn01:hover {
     transform: scale(1.07);
-    background-color: #229251;
+    background-color: #34b4f2;
     color: white;
     box-shadow: 10px 10px 30px rgba(189, 189, 189, 0.6);
     border-radius: 10px;
@@ -368,7 +375,7 @@ details[open] summary {
 
 .btn02:hover {
     transform: scale(1.07);
-    background-color: #229251;
+    background-color: #0e54b6;
     color: white;
     box-shadow: 10px 10px 30px rgba(189, 189, 189, 0.6);
     border-radius: 10px;
@@ -403,7 +410,7 @@ footer p {
 }
 
 .footer-icons-social-media:hover {
-    color: #229251;
+    color: #40b9fa;
     margin: 0 10px;
 }
 

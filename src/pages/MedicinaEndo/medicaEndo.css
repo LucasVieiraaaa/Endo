@@ -137,8 +137,8 @@
 }
 
 .form-control.valid {
-    border-color: #229251;
-    box-shadow: 0 0 0 1px #229251;
+    border-color: #40b9fa;
+    box-shadow: 0 0 0 1px #40b9fa;
 }
 
 .form-control.invalid {
@@ -159,7 +159,7 @@
 
 .btn03:hover {
     width: 100%;
-    background-color: #229251;
+    background-color: #40b9fa;
     color: white;
     padding: 1em;
     border-radius: 0.5em;
@@ -175,7 +175,7 @@ h3.text-center {
 
 .valid {
     font-size: 17px;
-    color: #229251;
+    color: #40b9fa;
 }
 
 .invalid {
