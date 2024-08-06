@@ -84,8 +84,35 @@ let instagram = 'Instagram';
 let whatsapp = 'Whatsapp';
 let email = 'Email';
 
-
 document.getElementById('Linkedin').textContent = linkedin;
 document.getElementById('Instagram').textContent = instagram;
 document.getElementById('Whatsapp').textContent = whatsapp;
 document.getElementById('Email').textContent = email;
+
+//Número Telefone
+
+let numCell = '(xx) xxxxx-xxxx';
+let numCris = '(xx) xxxxx-xxxx';
+
+document.getElementById('Cellphone').textContent = numCell;
+document.getElementById('NumCris').textContent = numCris;
+
+//Conteudo Header
+
+// let home = 'Home';
+// let cursos = 'Cursos';
+// let galeria = 'Galeria';
+// let imprensa = 'Imprensa';
+// let contato = 'Contato';
+
+// let medicina = 'Medicina';
+// let enfermagem = 'Enfermagem';
+
+// document.getElementById('Home').textContent = home;
+// document.getElementById('Cursos').textContent = cursos; 
+// document.getElementById('Galeria').textContent =  galeria;
+// document.getElementById('Imprensa').textContent = imprensa;
+// document.getElementById('Contato').textContent = contato;
+
+// document.getElementById('Medicina').textContent = medicina;
+// document.getElementById('Enfermagem').textContent = enfermagem;

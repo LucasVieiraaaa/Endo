@@ -62,7 +62,7 @@ nav ul li a,
 summary {
     text-decoration: none;
     color: white;
-    font-size: 17px;
+    font-size: 1em;
     transition: 0.3s;
     padding: 5px;
     display: flex;
@@ -119,33 +119,41 @@ details ul li a {
 details ul li a:hover {
     /* color: #229251; */
 }
-.details-social-media-01{
+
+.details-social-media-01 {
     /* Comments */
 }
-.details-social-media-01:hover{
+
+.details-social-media-01:hover {
     color: rgb(46, 130, 255);
 }
-.details-social-media-02{
+
+.details-social-media-02 {
     /* Comments */
     transition: 0.2s;
 }
-.details-social-media-02:hover{
+
+.details-social-media-02:hover {
     background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
 }
-.details-social-media-03{
+
+.details-social-media-03 {
     /* Comments */
 }
-.details-social-media-03:hover{
+
+.details-social-media-03:hover {
     color: rgb(61, 163, 52);
 }
-.details-social-media-04{
+
+.details-social-media-04 {
     /* Comments */
 }
-.details-social-media-04:hover{
+
+.details-social-media-04:hover {
     color: rgb(255, 93, 43);
 }
 
@@ -173,7 +181,7 @@ details ul li a:hover {
 details summary {
     list-style: none;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 1.06em;
     color: white;
     padding: 0;
     margin: 0;
@@ -231,7 +239,7 @@ details[open] summary {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background: none;
-    font-size: 30px;
+    font-size: 1.76em;
     color: #fff;
     transition: color 0.2s ease, transform 0.2s ease;
 }
@@ -290,7 +298,7 @@ details[open] summary {
 }
 
 .content p {
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .content-01 {
@@ -314,7 +322,7 @@ details[open] summary {
     color: #ffffff;
     width: 92%;
     height: 50px;
-    font-size: 15px;
+    font-size: 1em;
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-radius 0.3s ease-in-out;
     padding: 10px 20px;
     border: none;
@@ -390,6 +398,13 @@ hr {
     opacity: 0.7;
 }
 
+.content-card-final {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
 footer {
     background-color: #1d201d;
     color: white;
@@ -415,10 +430,11 @@ footer p {
 }
 
 
-@keyframes fade-in-class  {
+@keyframes fade-in-class {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
 
@@ -428,4 +444,236 @@ footer p {
 .fade-in-class {
     animation: fadeIn 0.1s ease-in-out;
     animation-fill-mode: forwards;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+        padding-right: 15px;
+    }
+
+    .logo img {
+        height: 70px;
+    }
+
+    .small-icon,
+    .small-icon-02 {
+        height: 30px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .carousel {
+        height: 300px;
+    }
+
+    .content {
+        padding: 20px;
+        padding-bottom: 10px;
+    }
+
+    .shadow-box {
+        flex-direction: column;
+        padding: 10px;
+        padding-right: 10px;
+    }
+
+    .content-image {
+        margin: 0 auto 10px auto;
+        height: 100px;
+        width: auto;
+    }
+
+    /* .content p {
+        font-size: 14px;
+    } */
+
+    .content-01 {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .btn,
+    .btn01,
+    .btn02 {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer p {
+        margin-bottom: 10px;
+    }
+
+    .footer-icons-social-media {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #101110;
+        padding: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: auto;
+        position: static;
+        width: 100%;
+    }
+
+    header.shrink {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #101110;
+        padding: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        position: static;
+        width: 100%;
+        height: 80%;
+    }
+
+    nav ul {
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        margin-left: 0px;
+        border: 0px;
+    }
+
+    nav ul li {
+        display: inline;
+        padding-top: 25px;
+        margin-left: 1%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        margin-right: 1.2em;
+        font-size: 16px;
+        padding: 0px;
+        border: 0px;
+        
+    }
+
+    details ul li {
+        margin: 0;
+        padding: 0;
+        height: auto;
+        
+    }
+
+    details ul li a {
+        display: block;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        transition: 0.2s;
+        width: 100px;
+        font-size: 13px;
+    }
+
+    .logo img {
+        display: flex;
+        padding-bottom: 50;
+        margin-top: 30%;
+        height: 100px;
+    }
+
+    .small-icon,
+    .small-icon-02 {
+        height: 1.3em;
+    }
+
+    .content {
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+
+    .shadow-box {
+        height: auto;
+        padding: 20px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .content-01 {
+        max-width: 360px;
+        width: 360px;
+        padding: 10px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .btn01 {
+        background-color: #1d201d;
+        color: #ffffff;
+        width: 22em;
+        height: 70px;
+        font-size: 16px;
+        border-radius: 1em;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding: 0px;
+    }
+
+    .btn {
+        background-color: #1d201d;
+        color: #ffffff;
+        width: 100%;
+        height: 55px;
+        font-size: 16px;
+        border-radius: 1em;
+        margin-top: 20px;
+        padding: 10px;
+        height: 70px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .content-card-final {
+        display: grid;
+    }
+
+    .center-icon-02 {
+        padding-top: 0px;
+    }
+
+    .form-inscricao {
+        width: 90%;
+    }
+
+    .content-cursos {
+        margin: 10px;
+    }
+
+    .responsive-h3 {
+        margin: 1em;
+    }
+    .responsive-h3-02 {
+        margin: 0.2em;
+    }
 }

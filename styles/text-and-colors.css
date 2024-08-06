@@ -1,21 +1,29 @@
-.text-justify{
+.text-justify {
     text-align: justify;
 }
 
-.text-left{
+.text-left {
     text-align: left;
 }
 
-.text-right{
+.text-right {
     text-align: left;
 }
 
-.dark-grey{
+.dark-grey {
     color: #818181;
 }
-.soft-white{
+
+.soft-white {
     color: #ffffff;
 }
-.text-19px{
+
+.text-19px {
     font-size: 19px;
+}
+
+@media (max-width: 480px) {
+    .text-19px {
+        font-size: 16px;
+    }
 }

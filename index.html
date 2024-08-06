@@ -24,9 +24,10 @@
                 <li><i class="fas fa-house-user"></i><a href="#" class="text-19px"> Home</a></li>
                 <li><i class="fas fa-plus"> </i>
                     <details>
-                        <summary onmouseover="openSummary(event)">Cursos</summary>
+                        <summary onmouseover="openSummary(event)" class="text-19px">Cursos</summary>
                         <ul class="ul-color-grid">
-                            <li><a href="src/pages/MedicinaEndo/medicinaEndo.html" class="li-border-bottom"><b>Medicina</b></a></li>
+                            <li><a href="src/pages/MedicinaEndo/medicinaEndo.html"
+                                    class="li-border-bottom"><b>Medicina</b></a></li>
                             <li><a href="src/pages/EnfermagemEndo/enfermagemEndo.html"><b>Enfermagem</b></a></li>
                         </ul>
                     </details>
@@ -35,7 +36,7 @@
                 <li><i class="fas fa-newspaper icon"></i><a href="#" class="text-19px"> Imprensa</a></li>
                 <li><i class="fas fa-phone-alt"> </i>
                     <details>
-                        <summary onmouseover="openSummary(event)">Contato</summary>
+                        <summary onmouseover="openSummary(event)" class="text-19px">Contato</summary>
                         <ul class="ul-color-grid">
                             <li><b><a href="#" class="li-border-bottom details-social-media-01"
                                         id="Linkedin">Loading...</b></a></li>
@@ -176,7 +177,7 @@
 
             <!-- responsive Drag-Card beggining -->
             <div style="background-color: #1d201d; padding: 30px;">
-                <h3 class="text-center soft-white">Artigos Cientificos / Casos</h3>
+                <h3 class="text-center soft-white">Artigos Médicos</h3>
                 <br>
                 <div class="card-carousel">
                     <div class="card" id="1">
@@ -204,8 +205,7 @@
             </div>
             <!-- responsive Drag-Card end -->
 
-            <div
-                style="padding: 80px;display: flex; justify-content: center; gap: 40px; background-image: url(base/media/imgs/carrosel04.jpg);">
+            <div class="content-card-final" style="background-image: url(base/media/imgs/carrosel04.jpg);">
                 <div class="content-01" style="border: 0px; margin: 0px;  padding: 50px;text-align: center;">
                     <h2>Médicina</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur provident delectus modi
@@ -213,6 +213,44 @@
                     <button class="btn" type="button" onclick="window.location.href='#';">Cursos de Endoscopia
                         Médica</button>
                 </div>
+                <!-- <div class="content-01" style="border: 0px; margin: 0px; padding: 50px;text-align: center;">
+                    <h2>Enfermagem</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur provident delectus modi
+                        repellendus eum atque alias odit sunt culpa!</p>
+                    <button class="btn" type="button" onclick="window.location.href='#';">Cursos de Endoscopia em
+                        Enfermagem</button>
+                </div> -->
+            </div>
+
+            <div style="background-color: #1d201d; padding: 30px;">
+                <h3 class="text-center soft-white">Artigos de Enfermagem</h3>
+                <br>
+                <div class="card-carousel">
+                    <!--<div class="card" id="1">
+                        <div class="image-container"></div>
+                        <p>1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                    </div>
+                    <div class="card" id="2">
+                        <div class="image-container"></div>
+                        <p>2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                    </div>
+                    <div class="card" id="3">
+                        <div class="image-container"></div>
+                        <p>3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                    </div>
+                    <div class="card" id="4">
+                        <div class="image-container"></div>
+                        <p>4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                    </div>
+                    <div class="card" id="5">
+                        <div class="image-container"></div>
+                        <p>5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                    </div>
+                    <a href="#" class="visuallyhidden card-controller">Carousel controller</a> -->
+                </div>
+            </div>
+
+            <div class="content-card-final" style="background-image: url(base/media/imgs/carrosel04.jpg);">
                 <div class="content-01" style="border: 0px; margin: 0px; padding: 50px;text-align: center;">
                     <h2>Enfermagem</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur provident delectus modi
@@ -221,6 +259,7 @@
                         Enfermagem</button>
                 </div>
             </div>
+
             <footer>
                 <p class="dark-grey" id="systemVersion">Loading...</p>
                 <div>
