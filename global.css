@@ -532,8 +532,6 @@ footer p {
         align-items: center;
         background-color: #101110;
         padding: 30px;
-        padding-top: 0px;
-        padding-bottom: 0px;
         height: auto;
         position: static;
         width: 100%;
@@ -541,43 +539,36 @@ footer p {
 
     header.shrink {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         background-color: #101110;
-        padding: 30px;
-        padding-top: 0px;
-        padding-bottom: 0px;
+        padding: 30px; /* Reduzi o padding para economizar espaço */
+        height: auto;
         position: static;
         width: 100%;
-        height: 80%;
     }
 
     nav ul {
-        flex-direction: row;
+        display: flex; /* Adicionado para garantir que os itens se alinhem corretamente */
+        flex-direction: column; /* Coloca os itens em uma coluna para economizar espaço horizontal */
         align-items: center;
-        padding: 0px;
-        margin-left: 0px;
-        border: 0px;
+        padding: 0;
+        margin: 0; /* Removi a margem para garantir que o layout não seja afetado */
+        list-style: none; /* Removi os marcadores de lista */
     }
 
     nav ul li {
-        display: inline;
-        padding-top: 25px;
-        margin-left: 1%;
-        margin-top: 30px;
-        margin-bottom: 10px;
-        margin-right: 1.2em;
-        font-size: 16px;
-        padding: 0px;
-        border: 0px;
-        
+        display: block; /* Alterado para block para que os itens se empilhem verticalmente */
+        padding: 10px 0; /* Ajustei o padding para espaçar verticalmente */
+        margin: 0; /* Removi a margem para evitar espaçamento indesejado */
+        font-size: 16px; /* Mantido para legibilidade */
+        text-align: center; /* Alinha o texto no centro */
     }
 
     details ul li {
         margin: 0;
         padding: 0;
-        height: auto;
-        
     }
 
     details ul li a {
@@ -585,40 +576,37 @@ footer p {
         padding: 10px;
         color: white;
         text-decoration: none;
-        transition: 0.2s;
-        width: 100px;
+        transition: background-color 0.2s;
         font-size: 13px;
+        text-align: center;
     }
 
     .logo img {
-        display: flex;
-        padding-bottom: 50;
-        margin-top: 30%;
-        height: 100px;
+        max-width: 100%;
+        height: auto; /* Mantém a proporção da imagem */
+        margin-top: 10px; /* Ajustei para um valor menor */
     }
 
     .small-icon,
     .small-icon-02 {
-        height: 1.3em;
+        height: 1.5em; /* Aumentei um pouco o tamanho para melhor visibilidade */
     }
 
     .content {
         padding: 10px;
-        padding-bottom: 20px;
     }
 
     .shadow-box {
-        height: auto;
-        padding: 20px;
+        padding: 10px; /* Reduzi o padding para economizar espaço */
     }
 
     .content p {
-        font-size: 16px;
+        font-size: 14px; /* Ajustei o tamanho da fonte para melhor legibilidade */
     }
 
     .content-01 {
-        max-width: 360px;
-        width: 360px;
+        max-width: 100%; /* Ajustei para ocupar toda a largura disponível */
+        width: 100%;
         padding: 10px;
     }
 
@@ -626,54 +614,59 @@ footer p {
         font-size: 12px;
     }
 
-    .btn01 {
-        background-color: #1d201d;
-        color: #ffffff;
-        width: 22em;
-        height: 70px;
-        font-size: 16px;
-        border-radius: 1em;
-        margin-top: 20px;
-        margin-bottom: 30px;
-        padding: 0px;
-    }
-
+    .btn01,
     .btn {
         background-color: #1d201d;
         color: #ffffff;
-        width: 100%;
-        height: 55px;
         font-size: 16px;
         border-radius: 1em;
-        margin-top: 20px;
+        margin: 10px 0; /* Ajustei a margem para um espaçamento mais uniforme */
+        padding: 0;
+        text-align: center; /* Centraliza o texto dentro dos botões */
+    }
+
+    .btn01 {
+        width: 100%;
+        height: 55px; /* Ajustei a altura para combinar com o botão padrão */
+    }
+
+    .btn {
+        width: 100%;
+        height: 55px; /* Ajustei a altura para combinar com o botão padrão */
         padding: 10px;
-        height: 70px;
     }
 
     h3 {
         text-align: center;
+        margin: 10px 0; /* Ajustei a margem para melhorar o espaçamento */
     }
 
     .content-card-final {
         display: grid;
+        grid-template-columns: 1fr; /* Ajustei para uma única coluna em telas pequenas */
+        gap: 10px; /* Adicionei um gap para espaçamento entre os cartões */
     }
 
     .center-icon-02 {
-        padding-top: 0px;
+        padding-top: 0;
     }
 
     .form-inscricao {
-        width: 90%;
+        width: 100%; /* Ajustei para ocupar toda a largura disponível */
     }
 
     .content-cursos {
-        margin: 10px;
+        margin: 10px 0; /* Ajustei a margem para um espaçamento mais consistente */
     }
 
     .responsive-h3 {
-        margin: 1em;
+        margin: 0.5em 0; /* Ajustei a margem para melhorar o espaçamento */
     }
+
     .responsive-h3-02 {
-        margin: 0.2em;
+        margin: 0.2em 0; /* Ajustei a margem para melhorar o espaçamento */
+    }
+    .img-med{
+        height: 200px;
     }
 }
