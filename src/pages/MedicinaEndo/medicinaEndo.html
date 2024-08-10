@@ -165,25 +165,25 @@
             <div class="centralizador">
                 <br>
                 <h2 class="text-center soft-white"><b>Inscreva-se Já</b></h2>
-                <form id="contactForm" class="form-inscricao" method="post" action="/post">
+                <form id="contactForm" class="form-inscricao">
                     <div class="center-icon">
                         <img class="form-icon" src="../../../base/media/icons/5278330.png" alt="endo-icon">
                     </div>
                     <div class="form-group">
                         <label for="name">Nome Completo</label>
-                        <input type="text" class="form-control" id="name" placeholder="Seu Nome Completo">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Seu Nome Completo" required>
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="Seu Email">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Seu Email" required>
                     </div>
                     <div class="form-group">
                         <label for="phone">Número de Telefone/Celular</label>
-                        <input type="tel" class="form-control" id="phone" placeholder="Seu Telefone/Celular">
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Seu Telefone/Celular" required>
                     </div>
                     <div class="form-group">
                         <label for="choice">Escolha um Curso</label>
-                        <select id="choice" class="form-control" required>
+                        <select id="choice" name="choice" class="form-control" required>
                             <option value="">Selecione um Curso</option>
                             <option value="opcao1">Curso 1</option>
                             <option value="opcao2">Curso 2</option>
@@ -193,13 +193,13 @@
                         </select>
                     </div>
                     <br>
-                    <button class="btn03" onclick="submitForm()">Enviar</button>
+                    <button type="submit" class="btn03">Enviar</button>
                     <p style="text-align: center;" class="validornot" id="getMengasem"></p>
                 </form>
             </div>
             <br><br>
         </div>
-
+        </div>
 
         <footer>
             <p class="dark-grey" id="systemVersion">Loading...</p>

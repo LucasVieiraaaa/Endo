@@ -9,6 +9,7 @@ const port = 3019;
 // Serve arquivos estáticos da pasta onde o server.js está localizado
 app.use(express.static(__dirname));
 app.use(express.urlencoded({ extended: true }));
+app.use(express.json()); // Adicione esta linha para processar JSON no corpo da requisição
 
 // Conectar ao MongoDB usando a connection string do arquivo .env
 const mongoURI = process.env.MONGO_URI;
@@ -44,15 +45,21 @@ app.get('/', (req, res) => {
 // Rota para manipular o formulário
 app.post('/post', async (req, res) => {
     const { name, email, phone, choice } = req.body;
+    console.log('Received data:', { name, email, phone, choice });
     const user = new Users({
         name,
         email,
         phone,
         choice
     });
-    await user.save();
-    console.log(user);
-    res.send("Form Submission Successful");
+    try {
+        await user.save();
+        console.log('User saved:', user);
+        res.json({ message: "Form Submission Successful" });
+    } catch (err) {
+        console.error('Error saving user:', err);
+        res.status(500).json({ error: "Error saving user" });
+    }
 });
 
 // Iniciar o servidor

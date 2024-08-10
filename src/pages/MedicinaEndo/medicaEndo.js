@@ -49,3 +49,35 @@ function submitForm() {
         console.log('Por favor, preencha todos os campos.');
     }
 }
+
+
+//Function connected to MongoBD
+document.getElementById('contactForm').addEventListener('submit', async function(event) {
+    event.preventDefault();
+
+    const formData = new FormData(this);
+    const data = Object.fromEntries(formData.entries());
+
+    try {
+        const response = await fetch('/post', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        });
+
+        const result = await response.json();
+        if (response.ok) {
+            document.getElementById('getMengasem').textContent = result.message;
+            document.getElementById('getMengasem').style.color = 'green';
+        } else {
+            document.getElementById('getMengasem').textContent = result.error;
+            document.getElementById('getMengasem').style.color = 'red';
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        document.getElementById('getMengasem').textContent = 'Erro ao enviar o formulário.';
+        document.getElementById('getMengasem').style.color = 'red';
+    }
+});
