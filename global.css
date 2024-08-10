@@ -550,20 +550,20 @@ footer p {
     }
 
     nav ul {
-        display: flex; /* Adicionado para garantir que os itens se alinhem corretamente */
-        flex-direction: column; /* Coloca os itens em uma coluna para economizar espaço horizontal */
+        display: flex;
+        flex-direction: column;
         align-items: center;
         padding: 0;
-        margin: 0; /* Removi a margem para garantir que o layout não seja afetado */
-        list-style: none; /* Removi os marcadores de lista */
+        margin: 0;
+        list-style: none;
     }
 
     nav ul li {
-        display: block; /* Alterado para block para que os itens se empilhem verticalmente */
-        padding: 10px 0; /* Ajustei o padding para espaçar verticalmente */
-        margin: 0; /* Removi a margem para evitar espaçamento indesejado */
-        font-size: 16px; /* Mantido para legibilidade */
-        text-align: center; /* Alinha o texto no centro */
+        display: block;
+        padding: 10px 0;
+        margin: 0;
+        font-size: 16px;
+        text-align: center;
     }
 
     details ul li {
@@ -597,11 +597,11 @@ footer p {
     }
 
     .shadow-box {
-        padding: 10px; /* Reduzi o padding para economizar espaço */
+        padding: 10px;
     }
 
     .content p {
-        font-size: 14px; /* Ajustei o tamanho da fonte para melhor legibilidade */
+        font-size: 14px;
     }
 
     .content-01 {
@@ -619,28 +619,28 @@ footer p {
         color: #ffffff;
         font-size: 16px;
         border-radius: 1em;
-        margin: 10px 0; /* Ajustei a margem para um espaçamento mais uniforme */
+        margin: 10px 0;
         padding: 0;
-        text-align: center; /* Centraliza o texto dentro dos botões */
+        text-align: center;
     }
 
     .btn01, .btn {
-        height: 55px; /* Altura consistente */
-        font-size: 12px; /* Tamanho da fonte consistente */
-        padding: 10px; /* Espaçamento interno */
-        box-sizing: border-box; /* Inclui padding e border na largura total */
-        width: 100%; /* Largura máxima */
+        height: 55px;
+        font-size: 12px;
+        padding: 10px;
+        box-sizing: border-box;
+        width: 100%;
     }
 
     h3 {
         text-align: center;
-        margin: 10px 0; /* Ajustei a margem para melhorar o espaçamento */
+        margin: 10px 0;
     }
 
     .content-card-final {
         display: grid;
-        grid-template-columns: 1fr; /* Ajustei para uma única coluna em telas pequenas */
-        gap: 10px; /* Adicionei um gap para espaçamento entre os cartões */
+        grid-template-columns: 1fr;
+        gap: 10px;
     }
 
     .center-icon-02 {
@@ -648,19 +648,19 @@ footer p {
     }
 
     .form-inscricao {
-        width: 100%; /* Ajustei para ocupar toda a largura disponível */
+        width: 100%;
     }
 
     .content-cursos {
-        margin: 10px 0; /* Ajustei a margem para um espaçamento mais consistente */
+        margin: 10px 0;
     }
 
     .responsive-h3 {
-        margin: 0.5em 0; /* Ajustei a margem para melhorar o espaçamento */
+        margin: 0.5em 0;
     }
 
     .responsive-h3-02 {
-        margin: 0.2em 0; /* Ajustei a margem para melhorar o espaçamento */
+        margin: 0.2em 0;
     }
     .img-med{
         height: 200px;

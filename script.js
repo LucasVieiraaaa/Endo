@@ -42,15 +42,15 @@ document.addEventListener('mouseover', function(event) {
     }
 });
 
-const detailsElement = document.querySelector('details');
-detailsElement.addEventListener('toggle', function (event) {
-    const header = document.getElementById('main-header');
-    if (detailsElement.open) {
-        header.style.height = 'auto';
-    } else {
-        header.style.height = 'initial';
-    }
-});
+// const detailsElement = document.querySelector('details');
+// detailsElement.addEventListener('toggle', function (event) {
+//     const header = document.getElementById('main-header');
+//     if (detailsElement.open) {
+//         header.style.height = 'auto';
+//     } else {
+//         header.style.height = 'initial';
+//     }
+// });
 
 
 //Animação Header Encolher
@@ -91,11 +91,11 @@ document.getElementById('Email').textContent = email;
 
 //Número Telefone
 
-let numCell = '(xx) xxxxx-xxxx';
-let numCris = '(xx) xxxxx-xxxx';
+// let numCell = '(xx) xxxxx-xxxx';
+// let numCris = '(xx) xxxxx-xxxx';
 
-document.getElementById('Cellphone').textContent = numCell;
-document.getElementById('NumCris').textContent = numCris;
+// document.getElementById('Cellphone').textContent = numCell;
+// document.getElementById('NumCris').textContent = numCris;
 
 //Conteudo Header
 
