@@ -27,7 +27,6 @@ function openSummary(event) {
     });
 }
 
-
 //Animação quando sai do summary
 document.addEventListener('mouseover', function(event) {
     const details = document.querySelectorAll('details');
@@ -41,17 +40,6 @@ document.addEventListener('mouseover', function(event) {
         details.forEach(detail => detail.removeAttribute('open'));
     }
 });
-
-// const detailsElement = document.querySelector('details');
-// detailsElement.addEventListener('toggle', function (event) {
-//     const header = document.getElementById('main-header');
-//     if (detailsElement.open) {
-//         header.style.height = 'auto';
-//     } else {
-//         header.style.height = 'initial';
-//     }
-// });
-
 
 //Animação Header Encolher
 document.addEventListener("DOMContentLoaded", function() {
@@ -75,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 //Versão do Sistema
-let version = "0.19v";
+let version = "0.20v";
 document.getElementById('systemVersion').textContent = version;
 
 //Redes-Sociais

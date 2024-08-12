@@ -27,7 +27,7 @@
                     <details>
                         <summary onmouseover="openSummary(event)" class="text-19px">Cursos</summary>
                         <ul class="ul-color-grid">
-                            <li><a href="#"  class="li-border-bottom"><b>Medicina</b></a></li>
+                            <li><a href="#" class="li-border-bottom"><b>Medicina</b></a></li>
                             <li><a href="../EnfermagemEndo/enfermagemEndo.html"><b>Enfermagem</b></a></li>
                         </ul>
                     </details>
@@ -42,8 +42,8 @@
                                         id="Linkedin">Loading...</b></a></li>
                             <li><b><a href="#" class="li-border-bottom details-social-media-02"
                                         id="Instagram">Loading...</b></a></li>
-                                        <li><b><a href="#" class="li-border-bottom details-social-media-03"
-                                            id="Whatsapp">Loading...</b></a></li>
+                            <li><b><a href="#" class="li-border-bottom details-social-media-03"
+                                        id="Whatsapp">Loading...</b></a></li>
                             <li><b><a href="#" id="Email" class="details-social-media-04">Loading...</b></a></li>
                         </ul>
                     </details>
@@ -110,8 +110,10 @@
             <div style="padding-bottom: 0px;   box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);">
                 <img class="img-med" src="../../../base/media/imgs/carrosel03.jpg" alt="img">
             </div>
-            <br><hr><br>
-            <h3 style="font-size: 33px; color:#818181;" class="text-center"><b class=" responsive-h3">Cursos de Endoscopia Médica Para Você</b>
+            <br>
+            <hr><br>
+            <h3 style="font-size: 33px; color:#818181;" class="text-center"><b class=" responsive-h3">Cursos de
+                    Endoscopia Médica Para Você</b>
             </h3>
             <h6 style="font-size: 16px;margin: 0px;" class="text-center">Lorem ipsum dolor sit amet consectetur
                 adipisicing
@@ -161,67 +163,72 @@
         <hr>
         <br>
         <br><br>
-        <div class="form-container" style=" background-image: url('../../../base/media/imgs/carrosel02.jpg');">
-            <div class="centralizador">
-                <br>
-                <h2 class="text-center soft-white"><b>Inscreva-se Já</b></h2>
-                <form id="contactForm" class="form-inscricao">
-                    <div class="center-icon">
-                        <img class="form-icon" src="../../../base/media/icons/5278330.png" alt="endo-icon">
-                    </div>
-                    <div class="form-group">
-                        <label for="name">Nome Completo</label>
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Seu Nome Completo" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Seu Email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Número de Telefone/Celular</label>
-                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Seu Telefone/Celular" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="choice">Escolha um Curso</label>
-                        <select id="choice" name="choice" class="form-control" required>
-                            <option value="">Selecione um Curso</option>
-                            <option value="opcao1">Curso 1</option>
-                            <option value="opcao2">Curso 2</option>
-                            <option value="opcao3">Curso 3</option>
-                            <option value="opcao4">Curso 4</option>
-                            <option value="opcao5">Curso 5</option>
-                        </select>
-                    </div>
-                    <br>
-                    <button type="submit" class="btn03">Enviar</button>
-                    <p style="text-align: center;" class="validornot" id="getMengasem"></p>
-                </form>
+<div class="form-container" style="background-image: url('../../../base/media/imgs/carrosel02.jpg');">
+    <div class="centralizador">
+        <br>
+        <h2 class="text-center soft-white"><b>Inscreva-se Já</b></h2>
+        <form id="contactForm" class="form-inscricao">
+            <div class="center-icon">
+                <img class="form-icon" src="../../../base/media/icons/5278330.png" alt="endo-icon">
             </div>
-            <br><br>
-        </div>
-        </div>
+            <div class="form-group">
+                <label for="name">Nome Completo</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Nome Completo" maxlength="100">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email" maxlength="100">
+            </div>
+            <div class="form-group">
+                <label for="phone">Número de Telefone/Celular</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Telefone/Celular" maxlength="25">
+            </div>
+            <div class="form-group">
+                <label for="choice">Escolha um Curso</label>
+                <select id="choice" name="choice" class="form-control">
+                    <option value="">Selecione um Curso</option>
+                    <option value="opcao1">Curso 1</option>
+                    <option value="opcao2">Curso 2</option>
+                    <option value="opcao3">Curso 3</option>
+                    <option value="opcao4">Curso 4</option>
+                    <option value="opcao5">Curso 5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label style="font-size: 13px;">
+                    <input type="checkbox" id="terms" name="terms">
+                    Li e concordo com os termos da <b>Política de Privacidade</b>
+                </label>
+            </div>
+            <button type="submit" class="btn03">Enviar</button>
+            <p style="text-align: center;" class="validornot" id="getMengasem"></p>
+        </form>
+    </div>
+    <br><br>
+</div>
 
-        <footer>
-            <p class="dark-grey" id="systemVersion">Loading...</p>
-            <div>
-                <p style="display: inline;" class="text-19px" id="Cellphone">
-                    Loading...</p>
-                <div style="display: inline; margin-left: 10px;">
-                    <a href="https://www.instagram.com" target="_blank" class="footer-icons-social-media">
-                        <i class="fab fa-instagram fa-2x"></i>
-                    </a>
-                    <a href="https://www.facebook.com" target="_blank" class="footer-icons-social-media">
-                        <i class="fab fa-facebook-f fa-2x"></i>
-                    </a>
-                    <a href="https://wa.me/5511999999999" target="_blank" class="footer-icons-social-media">
-                        <i class="fab fa-whatsapp fa-2x"></i>
-                    </a>
-                    <a href="#" target="_blank" class="footer-icons-social-media">
-                        <i class="fab fa-linkedin fa-2x"></i>
-                    </a>
-                </div>
+    </div>
+    <footer>
+        <p class="dark-grey" id="systemVersion">Loading...</p>
+        <div>
+            <p style="display: inline;" class="text-19px" id="Cellphone">
+                Loading...</p>
+            <div style="display: inline; margin-left: 10px;">
+                <a href="https://www.instagram.com" target="_blank" class="footer-icons-social-media">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank" class="footer-icons-social-media">
+                    <i class="fab fa-facebook-f fa-2x"></i>
+                </a>
+                <a href="https://wa.me/5511999999999" target="_blank" class="footer-icons-social-media">
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                </a>
+                <a href="#" target="_blank" class="footer-icons-social-media">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
             </div>
-        </footer>
+        </div>
+    </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>

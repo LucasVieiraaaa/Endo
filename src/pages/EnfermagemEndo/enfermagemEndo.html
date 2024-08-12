@@ -27,7 +27,8 @@
                     <details>
                         <summary onmouseover="openSummary(event)" class="text-19px">Cursos</summary>
                         <ul class="ul-color-grid">
-                            <li><a href="../MedicinaEndo/medicinaEndo.html"  class="li-border-bottom"><b>Medicina</b></a></li>
+                            <li><a href="../MedicinaEndo/medicinaEndo.html" class="li-border-bottom"><b>Medicina</b></a>
+                            </li>
                             <li><a href="#"><b>Enfermagem</b></a></li>
                         </ul>
                     </details>
@@ -38,10 +39,12 @@
                     <details>
                         <summary onmouseover="openSummary(event)" class="text-19px">Contato</summary>
                         <ul class="ul-color-grid">
-                            <li><b><a href="#" class="li-border-bottom details-social-media-01" id="Linkedin">Loading...</b></a></li>
-                            <li><b><a href="#" class="li-border-bottom details-social-media-02" id="Instagram">Loading...</b></a></li>
+                            <li><b><a href="#" class="li-border-bottom details-social-media-01"
+                                        id="Linkedin">Loading...</b></a></li>
+                            <li><b><a href="#" class="li-border-bottom details-social-media-02"
+                                        id="Instagram">Loading...</b></a></li>
                             <li><b><a href="#" class="li-border-bottom details-social-media-03"
-                                id="Whatsapp">Loading...</b></a></li>
+                                        id="Whatsapp">Loading...</b></a></li>
                             <li><b><a href="#" id="Email" class="details-social-media-04">Loading...</b></a></li>
                         </ul>
                     </details>
@@ -52,22 +55,23 @@
     </header>
     <br>
     <div class="fade-in-class">
-    <div class="sobreOcurso">
-        <div style="display: inline">
-            <div class="center-icon-02">
-                <img class="form-icon" src="../../../base/media/icons/5278330.png" alt="endo-icon">
+        <div class="sobreOcurso">
+            <div style="display: inline">
+                <div class="center-icon-02">
+                    <img class="form-icon" src="../../../base/media/icons/5278330.png" alt="endo-icon">
+                </div>
+                <h3 class="text-left"><b>Sobre os Cursos de Endoscopia em Enfermagem</b></h3>
+                <h6 class="text-left"></h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, impedit. Eos
+                    cumque quaerat enim nostrum, unde, obcaecati assumenda perspiciatis perferendis dignissimos hic
+                    repudiandae et quisquam rem modi porro blanditiis. Porro similique eos obcaecati, aspernatur
+                    explicabo
+                    suscipit molestias quos delectus tempore ipsam accusantium, distinctio consequatur harum voluptatem.
+                    Eveniet, tempora maiores? Fugiat?</p>
             </div>
-            <h3  class="text-left"><b>Sobre os Cursos de Endoscopia em Enfermagem</b></h3>
-            <h6  class="text-left"></h6>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, impedit. Eos
-                cumque quaerat enim nostrum, unde, obcaecati assumenda perspiciatis perferendis dignissimos hic
-                repudiandae et quisquam rem modi porro blanditiis. Porro similique eos obcaecati, aspernatur explicabo
-                suscipit molestias quos delectus tempore ipsam accusantium, distinctio consequatur harum voluptatem.
-                Eveniet, tempora maiores? Fugiat?</p>
+            <br>
         </div>
-        <br>
-    </div>
-    <hr>
+        <hr>
     </div>
     </div>
     <br>
@@ -109,8 +113,10 @@
         <img class="img-med" src="../../../base/media/imgs/carrosel03.jpg" alt="img">
     </div>
 
-    <br>    <hr><br>
-    <h3 style="font-size: 33px; color: #818181;" class="text-center responsive-h3-02"><b class=" responsive-h3-02">Cursos de Endoscopia em Enfermagem Para Você</b></h3>
+    <br>
+    <hr><br>
+    <h3 style="font-size: 33px; color: #818181;" class="text-center responsive-h3-02"><b
+            class=" responsive-h3-02">Cursos de Endoscopia em Enfermagem Para Você</b></h3>
     <h6 style="font-size: 16px;margin: 0px;" class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing
         elit. Reiciendis, eos.</h6>
     <br>
@@ -144,37 +150,42 @@
     <hr>
     <br>
     <br><br>
-    <div class="form-container" style=" background-image: url('../../../base/media/imgs/carrosel02.jpg');">
+    <div class="form-container" style="background-image: url('../../../base/media/imgs/carrosel02.jpg');">
         <div class="centralizador">
             <br>
-            <h2 class="text-center" style="color:#ffffff"><b>Inscreva-se Já</b></h2>
-            <form id="contactForm" class="form-inscricao" method="post" action="/post">
+            <h2 class="text-center soft-white"><b>Inscreva-se Já</b></h2>
+            <form id="contactForm" class="form-inscricao">
                 <div class="center-icon">
                     <img class="form-icon" src="../../../base/media/icons/5278330.png" alt="endo-icon">
                 </div>
                 <div class="form-group">
                     <label for="name">Nome Completo</label>
-                    <input type="text" class="form-control" id="name" placeholder="Seu Nome Completo">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Nome Completo" maxlength="100">
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Seu Email">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" maxlength="100">
                 </div>
                 <div class="form-group">
                     <label for="phone">Número de Telefone/Celular</label>
-                    <input type="tel" class="form-control" id="phone" placeholder="Seu Telefone/Celular">
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Telefone/Celular" maxlength="25">
                 </div>
                 <div class="form-group">
                     <label for="choice">Escolha um Curso</label>
-                    <select id="choice" class="form-control" required>
+                    <select id="choice" name="choice" class="form-control">
                         <option value="">Selecione um Curso</option>
                         <option value="opcao1">Curso 1</option>
                         <option value="opcao2">Curso 2</option>
                         <option value="opcao3">Curso 3</option>
                     </select>
                 </div>
-                <br>
-                <button class="btn03" onclick="submitForm()">Enviar</button>
+                <div class="form-group">
+                    <label style="font-size: 13px;">
+                        <input type="checkbox" id="terms" name="terms">
+                        Li e concordo com os termos da <b>Política de Privacidade</b>
+                    </label>
+                </div>
+                <button type="submit" class="btn03">Enviar</button>
                 <p style="text-align: center;" class="validornot" id="getMengasem"></p>
             </form>
         </div>
@@ -203,7 +214,7 @@
             </div>
         </div>
     </footer>
-</div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
