@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="../../../base/media/imgs/logo-mc.jpeg">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="enfermagemEndo.css">
     <link rel="stylesheet" href="../../../global.css">
@@ -20,10 +21,16 @@
         <div class="logo">
             <img src="../../../base/media/imgs/logo-mc.jpeg" alt="logo">
         </div>
-        <nav>
+        <div class="menu-icon" id="menuIcon">
+            <span class="material-symbols-outlined" style="font-size: 1.8em;">
+                menu
+                </span>
+        </div>
+        <nav id="navMenu">
             <ul>
-                <li><i class="fas fa-house-user"></i><a href="../../../index.html" class="text-19px"> Home</a></li>
-                <li><i class="fas fa-plus"> </i>
+
+                <li><span class="material-symbols-outlined">house</span><a href="../../../index.html" class="text-19px"> Home</a></li>
+                <li><span class="material-symbols-outlined">book</span>
                     <details>
                         <summary onmouseover="openSummary(event)" class="text-19px">Cursos</summary>
                         <ul class="ul-color-grid">
@@ -33,9 +40,9 @@
                         </ul>
                     </details>
                 </li>
-                <li><i class="fas fa-image icon"></i><a href="#" class="text-19px"> Galeria</a></li>
-                <li><i class="fas fa-newspaper icon"></i><a href="#" class="text-19px"> Imprensa</a></li>
-                <li><i class="fas fa-phone-alt"> </i>
+                <li><span class="material-symbols-outlined">image</span><a href="#" class="text-19px"> Galeria</a></li>
+                <li><span class="material-symbols-outlined">video_camera_front</span><a href="#" class="text-19px"> Imprensa</a></li>
+                <li><span class="material-symbols-outlined" style="padding-right: 0.18em;">account_box</span>
                     <details>
                         <summary onmouseover="openSummary(event)" class="text-19px">Contato</summary>
                         <ul class="ul-color-grid">
@@ -110,9 +117,8 @@
     </div> -->
 
     <div style="padding-bottom: 0px;   box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);">
-        <img class="img-med" src="../../../base/media/imgs/carrosel03.jpg" alt="img">
+        <img class="img-med" style="max-height: 30%;height: 500px;" src="../../../base/media/imgs/carrosel03.jpg" alt="img">
     </div>
-
     <br>
     <hr><br>
     <h3 style="font-size: 33px; color: #818181;" class="text-center responsive-h3-02"><b
@@ -177,6 +183,8 @@
                         <option value="opcao1">Curso 1</option>
                         <option value="opcao2">Curso 2</option>
                         <option value="opcao3">Curso 3</option>
+                        <option value="opcao4">Curso 4</option>
+                        <option value="opcao5">Curso 5</option>
                     </select>
                 </div>
                 <div class="form-group">

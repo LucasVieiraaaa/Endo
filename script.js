@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 //Versão do Sistema
-let version = "0.20v";
+let version = "0.210v";
 document.getElementById('systemVersion').textContent = version;
 
 //Redes-Sociais
@@ -77,6 +77,22 @@ document.getElementById('Instagram').textContent = instagram;
 document.getElementById('Whatsapp').textContent = whatsapp;
 document.getElementById('Email').textContent = email;
 
+document.addEventListener('DOMContentLoaded', function() {
+    const menuIcon = document.getElementById('menuIcon');
+    const navMenu = document.getElementById('navMenu');
+
+    // Alterna o menu quando o ícone de hambúrguer é clicado
+    menuIcon.addEventListener('click', function() {
+        navMenu.classList.toggle('show');
+    });
+
+    // Fecha o menu quando clicar fora dele
+    document.addEventListener('click', function(event) {
+        if (!menuIcon.contains(event.target) && !navMenu.contains(event.target)) {
+            navMenu.classList.remove('show');
+        }
+    });
+});
 //Número Telefone
 
 // let numCell = '(xx) xxxxx-xxxx';
