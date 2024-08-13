@@ -391,6 +391,7 @@ details[open] summary {
     padding: 50px;
     text-align: center;
     width: 40%;
+    height: auto;
 }
 
 .btn {
@@ -462,7 +463,7 @@ details[open] summary {
     background-color: #0e54b6;
     color: white;
     box-shadow: 10px 10px 30px rgba(189, 189, 189, 0.6);
-    border-radius: 10px;
+    border-radius: 0px;
 }
 
 hr {
@@ -705,12 +706,12 @@ footer p {
 
     .content-01 {
         width: 100%;
-        padding: 10px;
+        /* padding: 10px; */
     }
 
     .inside-content-01 {
         width: 330px;
-        height: 350px;
+        height: auto;
         /* margin: 10px; */
     }
 
