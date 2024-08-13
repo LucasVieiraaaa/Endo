@@ -24,24 +24,26 @@
         <div class="menu-icon" id="menuIcon">
             <span class="material-symbols-outlined" style="font-size: 1.8em;">
                 menu
-                </span>
+            </span>
         </div>
         <nav id="navMenu">
             <ul>
 
-                <li><span class="material-symbols-outlined">house</span><a href="../../../index.html" class="text-19px"> Home</a></li>
+                <li><span class="material-symbols-outlined">house</span><a href="../../../index.html" class="text-19px">
+                        Home</a></li>
                 <li><span class="material-symbols-outlined">book</span>
                     <details>
                         <summary onmouseover="openSummary(event)" class="text-19px">Cursos</summary>
                         <ul class="ul-color-grid">
                             <li><a href="../MedicinaEndo/medicinaEndo.html" class="li-border-bottom"><b>Medicina</b></a>
                             </li>
-                            <li><a href="#"><b>Enfermagem</b></a></li>
+                            <li><a href="#" class="marked-summary"><b>Enfermagem</b></a></li>
                         </ul>
                     </details>
                 </li>
                 <li><span class="material-symbols-outlined">image</span><a href="#" class="text-19px"> Galeria</a></li>
-                <li><span class="material-symbols-outlined">video_camera_front</span><a href="#" class="text-19px"> Imprensa</a></li>
+                <li><span class="material-symbols-outlined">video_camera_front</span><a href="#" class="text-19px">
+                        Imprensa</a></li>
                 <li><span class="material-symbols-outlined" style="padding-right: 0.18em;">account_box</span>
                     <details>
                         <summary onmouseover="openSummary(event)" class="text-19px">Contato</summary>
@@ -116,15 +118,23 @@
         </div>
     </div> -->
 
-    <div style="padding-bottom: 0px;   box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);">
-        <img class="img-med" style="max-height: 30%;height: 500px;" src="../../../base/media/imgs/carrosel03.jpg" alt="img">
+    <div class="img-container-wrapper">
+        <div class="img-med-container">
+            <img class="img-med" src="../../../base/media/imgs/endo-11.png" alt="img"
+                style="border-top-right-radius: 0px;border-bottom-right-radius: 0px;">
+        </div>
+        <div class="img-med-container">
+            <img class="img-med" src="../../../base/media/imgs/endo-12.png" alt="img"
+                style="border-top-left-radius: 0px;border-bottom-left-radius: 0px;">
+        </div>
     </div>
     <br>
     <hr><br>
-    <h3 style="font-size: 33px; color: #818181;" class="text-center responsive-h3-02"><b
+    <h3 style="font-size: 28px; color: #818181;" class="text-center responsive-h3-02"><b
             class=" responsive-h3-02">Cursos de Endoscopia em Enfermagem Para Você</b></h3>
-    <h6 style="font-size: 16px;margin: 0px;" class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Reiciendis, eos.</h6>
+    <h6 style="font-size: 16px;padding-left: 50px;padding-right: 50px;" class="text-center">Lorem ipsum, dolor sit amet
+        consectetur adipisicing elit. Ipsam at dolores placeat voluptatibus assumenda tenetur repudiandae asperiores
+        perferendis animi nesciunt.</h6>
     <br>
     <hr>
     <br>
@@ -166,15 +176,18 @@
                 </div>
                 <div class="form-group">
                     <label for="name">Nome Completo</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Nome Completo" maxlength="100">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Nome Completo"
+                        maxlength="100">
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" maxlength="100">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email"
+                        maxlength="100">
                 </div>
                 <div class="form-group">
                     <label for="phone">Número de Telefone/Celular</label>
-                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Telefone/Celular" maxlength="25">
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Telefone/Celular"
+                        maxlength="25">
                 </div>
                 <div class="form-group">
                     <label for="choice">Escolha um Curso</label>
@@ -203,6 +216,7 @@
 
     <footer>
         <p class="dark-grey" id="systemVersion">Loading...</p>
+        <p>&copy; 2024 Instituto de Endoscopia Digestiva. Todos os direitos reservados.</p>
         <div>
             <p style="display: inline;" class="text-19px" id="Cellphone">
                 Loading...</p>

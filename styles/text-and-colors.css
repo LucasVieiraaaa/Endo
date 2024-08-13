@@ -22,6 +22,15 @@
     font-size: 19px;
 }
 
+@media (max-width: 900px) {
+    .text-justify {
+        text-align: justify;
+    }
+
+    .text-left, .text-right {
+        text-align: justify;
+    }
+}
 @media (max-width: 480px) {
     .text-19px {
         font-size: 16px;

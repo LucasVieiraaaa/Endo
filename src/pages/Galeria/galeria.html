@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../../../base/media/imgs/logo-mc.jpeg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="medicaEndo.css">
+    <link rel="stylesheet" href="../../../global.css">
+    <link rel="stylesheet" href="../../../styles/super-card.css">
+    <link rel="stylesheet" href="../../../styles/text-and-colors.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="galeria.css">
+    <title>Instituto de Endoscopia Digestiva</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <img src="../../../base/media/imgs/logo-mc.jpeg" alt="logo">
+        </div>
+        <div class="menu-icon" id="menuIcon">
+            <span class="material-symbols-outlined" style="font-size: 1.8em;">
+                menu
+            </span>
+        </div>
+        <nav id="navMenu">
+            <ul>
+                <li><span class="material-symbols-outlined">house</span><a href="../../../index.html" class="text-19px"> Home</a></li>
+                <li><span class="material-symbols-outlined">book</span>
+                    <details>
+                        <summary onmouseover="openSummary(event)" class="text-19px">Cursos</summary>
+                        <ul class="ul-color-grid">
+                            <li><a href="../../../src/pages/MedicinaEndo/medicinaEndo.html" class="li-border-bottom"><b>Medicina</b></a></li>
+                            <li><a href="../../../src/pages/EnfermagemEndo/enfermagemEndo.html"><b>Enfermagem</b></a></li>
+                        </ul>
+                    </details>
+                </li>
+                <li><span class="material-symbols-outlined">image</span><a href="#" class="text-19px"> Galeria</a></li>
+                <li><span class="material-symbols-outlined">video_camera_front</span><a href="#" class="text-19px"> Imprensa</a></li>
+                <li><span class="material-symbols-outlined" style="padding-right: 0.18em;">account_box</span><details>
+                        <summary onmouseover="openSummary(event)" class="text-19px">Contato</summary>
+                        <ul class="ul-color-grid">
+                            <li><b><a href="#" class="li-border-bottom details-social-media-01" id="Linkedin">Loading...</b></a></li>
+                            <li><b><a href="#" class="li-border-bottom details-social-media-02" id="Instagram">Loading...</b></a></li>
+                            <li><b><a href="#" class="li-border-bottom details-social-media-03" id="Whatsapp">Loading...</b></a></li>
+                            <li><b><a href="#" id="Email" class="details-social-media-04">Loading...</b></a></li>
+                        </ul>
+                    </details>
+                </li>
+            </ul>
+            <br>
+        </nav>
+    </header>
+
+    <!-- Carrossel -->
+    <div class="fade-in-class">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner" style="background-color: black;">
+                <div class="carousel-item active">
+                    <img src="base/media/imgs/carrosel00.jpg" class="d-block w-100" alt="Slide 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Primeiro Slide</h5>
+                        <p>Legenda para o primeiro slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="base/media/imgs/carrosel01.jpg" class="d-block w-100" alt="Slide 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Segundo Slide</h5>
+                        <p>Legenda para o segundo slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="base/media/imgs/carrosel02.jpg" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Terceiro Slide</h5>
+                        <p>Legenda para o terceiro slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="base/media/imgs/carrosel03.jpg" class="d-block w-100" alt="Slide 4">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Quarto Slide</h5>
+                        <p>Legenda para o quarto slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="base/media/imgs/carrosel04.jpg" class="d-block w-100" alt="Slide 5">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Quinto Slide</h5>
+                        <p>Legenda para o quinto slide.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Galeria -->
+    <div class="container">
+        <h2 class="text-center my-4">Galeria de Imagens</h2>
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x300" alt="Imagem 1">
+                    <div class="overlay">
+                        <p>Descrição da Imagem 1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x300" alt="Imagem 2">
+                    <div class="overlay">
+                        <p>Descrição da Imagem 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x300" alt="Imagem 3">
+                    <div class="overlay">
+                        <p>Descrição da Imagem 3</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Adicione mais itens conforme necessário -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Instituto de Endoscopia Digestiva. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../../../script.js"></script>
+</body>
+
+</html>

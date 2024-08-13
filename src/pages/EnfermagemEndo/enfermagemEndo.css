@@ -34,7 +34,7 @@
     color: rgb(255, 255, 255);
     padding: 40px;
     padding-bottom: 10px;
-    margin: 0px;
+    margin: 10px;
     border-radius: 0em;
     width: 470px;
     height: auto;
@@ -61,9 +61,74 @@
     border-radius: 1em;
 }
 
+.img-container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os itens */
+    margin: 0 auto;
+    padding: 10px; /* Adiciona padding para o contêiner pai */
+}
+
+/* Estilos do contêiner da imagem */
+.img-med-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(40% - 10px); /* Ajusta a largura para duas imagens na mesma linha com espaçamento */
+    height: auto !important;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff73;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos da imagem */
 .img-med {
-    width: 100%;
-    height:auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+/* Regras de mídia para telas menores */
+@media (max-width: 1200px) {
+    .img-med-container {
+        width: calc(50% - 10px); /* Continua mostrando duas imagens por linha em telas menores que 1200px */
+    }
+}
+
+@media (max-width: 992px) {
+    .img-med-container {
+        width: calc(50% - 10px); /* Mantém duas imagens por linha em telas menores que 992px */
+    }
+}
+
+@media (max-width: 768px) {
+    .img-med-container {
+        width: calc(100% - 10px); /* Uma imagem por linha em telas menores que 768px */
+    }
+}
+
+@media (max-width: 576px) {
+    .img-med-container {
+        width: calc(100% - 10px); /* Uma imagem por linha em telas menores que 576px */
+        height: auto; /* Ajusta a altura para não forçar uma altura fixa */
+    }
+    .img-med{
+        border-radius: 1em !important;
+    }
+    .center-icon-02{
+        padding-top: 0px;
+    }
+}
+@media (max-width: 316px) {
+    .img-med-container {
+        width: calc(100% - 10px); /* Uma imagem por linha em telas menores que 576px */
+        height: auto; /* Ajusta a altura para não forçar uma altura fixa */
+    }
 }
 .centralizador {
     display: flex;
@@ -76,7 +141,7 @@
 .form-inscricao {
     display: grid;
     gap: 0.4em;
-    width: 100%;
+    width: 92%;
     max-width: 500px;
     border-radius: 1em;
     background-color: #FFFFFF;
@@ -109,9 +174,39 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 170px;
-    padding-bottom: 20px;
     border-radius: 50%;
+    padding-top: 170px; /* Padding inicial */
+    padding-bottom: 20px; /* Padding inicial */
+    box-sizing: border-box; /* Inclui padding e border no tamanho total do elemento */
+}
+
+/* Regras de mídia para telas menores */
+@media (max-width: 1200px) {
+    .center-icon-02 {
+        padding-top: 150px; /* Ajusta o padding superior para telas menores */
+        padding-bottom: 15px; /* Ajusta o padding inferior */
+    }
+}
+
+@media (max-width: 992px) {
+    .center-icon-02 {
+        padding-top: 120px; /* Ajusta o padding superior para telas menores */
+        padding-bottom: 10px; /* Ajusta o padding inferior */
+    }
+}
+
+@media (max-width: 768px) {
+    .center-icon-02 {
+        padding-top: 100px; /* Ajusta o padding superior para telas menores */
+        padding-bottom: 5px; /* Ajusta o padding inferior */
+    }
+}
+
+@media (max-width: 576px) {
+    .center-icon-02 {
+        padding-top: 0px; /* Ajusta o padding superior para telas muito pequenas */
+        padding-bottom: 0; /* Remove o padding inferior para telas muito pequenas */
+    }
 }
 
 .form-group {
