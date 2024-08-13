@@ -64,17 +64,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* Espaçamento entre os itens */
+    gap: 20px;
     margin: 0 auto;
-    padding: 10px; /* Adiciona padding para o contêiner pai */
+    padding: 10px;
 }
 
-/* Estilos do contêiner da imagem */
 .img-med-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(40% - 10px); /* Ajusta a largura para duas imagens na mesma linha com espaçamento */
+    width: calc(40% - 10px);
     height: auto !important;
     overflow: hidden;
     position: relative;
@@ -83,7 +82,6 @@
     box-sizing: border-box;
 }
 
-/* Estilos da imagem */
 .img-med {
     display: block;
     max-width: 100%;
@@ -92,43 +90,6 @@
     border-radius: 1em;
 }
 
-/* Regras de mídia para telas menores */
-@media (max-width: 1200px) {
-    .img-med-container {
-        width: calc(50% - 10px); /* Continua mostrando duas imagens por linha em telas menores que 1200px */
-    }
-    .sobreOcurso {
-        padding: 50px;
-    }
-}
-
-@media (max-width: 992px) {
-    .img-med-container {
-        width: calc(50% - 10px); /* Mantém duas imagens por linha em telas menores que 992px */
-    }
-    .sobreOcurso {
-        padding: 50px;
-    }
-}
-
-@media (max-width: 768px) {
-    .img-med-container {
-        width: calc(100% - 10px); /* Uma imagem por linha em telas menores que 768px */
-    }
-    .sobreOcurso {
-        padding: 50px;
-    }
-}
-
-@media (max-width: 576px) {
-    .img-med-container {
-        width: calc(100% - 10px); /* Uma imagem por linha em telas menores que 576px */
-        height: auto; /* Ajusta a altura para não forçar uma altura fixa */
-    }
-    .sobreOcurso {
-        padding: 50px;
-    }
-}
 .centralizador {
     display: flex;
     flex-direction: column;
@@ -245,4 +206,41 @@ h3.text-center {
 .invalid {
     font-size: 17px;
     color: red;
+}
+
+@media (max-width: 1200px) {
+    .img-med-container {
+        width: calc(50% - 10px);
+    }
+    .sobreOcurso {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .img-med-container {
+        width: calc(50% - 10px);
+    }
+    .sobreOcurso {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-med-container {
+        width: calc(100% - 10px);
+    }
+    .sobreOcurso {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .img-med-container {
+        width: calc(100% - 10px);
+        height: auto;
+    }
+    .sobreOcurso {
+        padding: 50px;
+    }
 }

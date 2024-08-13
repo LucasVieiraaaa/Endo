@@ -23,18 +23,6 @@ header {
     z-index: 1000;
 }
 
-@keyframes slideDown {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
 header.shrink {
     height: 70px;
     padding: 15px;
@@ -68,12 +56,10 @@ nav ul {
     padding: 0;
     display: flex;
     flex-direction: row;
-    /* Navegação horizontal em tamanhos de tela normais */
 }
 
 nav ul li {
     margin: 0 15px;
-    /* Ajusta a margem dos itens da navegação */
     position: relative;
     display: flex;
     align-items: center;
@@ -153,7 +139,6 @@ details ul li a:hover {
 }
 
 .details-social-media-02 {
-    /* Comments */
     transition: 0.2s;
 }
 
@@ -190,18 +175,6 @@ details ul li a:hover {
     display: grid;
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
 details summary {
     list-style: none;
     cursor: pointer;
@@ -225,42 +198,6 @@ details[open] summary {
     font-size: 24px;
     color: white;
     cursor: pointer;
-}
-
-@media (max-width: 768px) {
-    .menu-icon {
-        display: block;
-        padding-top: 1.5em;
-        padding-bottom: 1em;
-    }
-
-    nav ul {
-        display: none;
-        flex-direction: column;
-        margin-top: 0;
-    }
-
-    nav ul.show {
-        display: flex;
-    }
-
-    #navMenu {
-        display: none;
-        position: static;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background-color: #101110;
-        z-index: 1000;
-        animation: slideDown 0.5s ease-in-out;
-        margin: 0;
-        padding: 0;
-    }
-
-
-    #navMenu.show {
-        display: block;
-    }
 }
 
 .carousel {
@@ -375,7 +312,6 @@ details[open] summary {
     justify-content: center;
     align-items: center;
     width: 80%;
-    /* max-width: 450px; */
     height: 350px;
     margin: 0px auto;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -507,24 +443,13 @@ footer p {
 }
 
 
-@keyframes fade-in-class {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-
-    }
-}
-
 .fade-in-class {
     animation: fadeIn 0.1s ease-in-out;
     animation-fill-mode: forwards;
 }
 
-@media (max-width: 920px){
-    .btn{
+@media (max-width: 920px) {
+    .btn {
         text-align: center;
         height: auto;
     }
@@ -554,7 +479,6 @@ footer p {
     }
 
     nav ul {
-        flex-direction: column;
         align-items: center;
     }
 
@@ -577,7 +501,7 @@ footer p {
         flex-direction: column;
         padding: 10px;
         padding-right: 10px;
-        
+
     }
 
     .content-image {
@@ -586,13 +510,8 @@ footer p {
         width: auto;
     }
 
-    /* .content p {
-        font-size: 14px;
-    } */
-
     .content-01 {
         width: 100%;
-        /* max-width: 350px; */
         height: auto;
         padding: 20px;
     }
@@ -620,6 +539,10 @@ footer p {
 
     .footer-icons-social-media {
         margin: 5px;
+    }
+
+    #navMenu {
+        display: flex;
     }
 }
 
@@ -706,13 +629,11 @@ footer p {
 
     .content-01 {
         width: 100%;
-        /* padding: 10px; */
     }
 
     .inside-content-01 {
         width: 330px;
         height: auto;
-        /* margin: 10px; */
     }
 
     footer p {
@@ -766,10 +687,72 @@ footer p {
         margin: 0.2em 0;
         padding: 20px;
         padding-bottom: 0px;
-        /* font: 28px !important; */
     }
 
     .img-med {
         height: 200px;
+    }
+
+    .menu-icon {
+        display: block;
+        padding-top: 1.5em;
+        padding-bottom: 1em;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    #navMenu {
+        display: none;
+        position: static;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #101110;
+        z-index: 1000;
+        animation: slideDown 0.5s ease-in-out;
+        margin: 0;
+        padding: 0;
+    }
+
+    #navMenu.show {
+        display: block;
+    }
+}
+
+/* @keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade-in-class {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+
     }
 }
