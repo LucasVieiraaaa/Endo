@@ -21,18 +21,40 @@
 .text-19px {
     font-size: 19px;
 }
+.pad{
+    padding-right: 50px;
+    /* padding-left: 50px; */
+}
+
+/* .pad-button{
+    padding-right: 50px;
+    padding-left: 50px;
+    align-items: center;
+} */
 
 @media (max-width: 900px) {
     .text-justify {
         text-align: justify;
     }
-
-    .text-left, .text-right {
+    .text-left,
+    .text-right {
         text-align: justify;
     }
 }
+
 @media (max-width: 480px) {
     .text-19px {
         font-size: 16px;
+    }
+    .pad-button {
+        padding-right: 50px;
+        padding-left: 50px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .pad{
+        padding-right: 50px;
+        padding-left: 50px;
     }
 }
