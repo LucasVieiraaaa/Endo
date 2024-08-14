@@ -104,7 +104,7 @@
 @media screen and (max-width: 768px) {
   .card-carousel {
     min-width: 100%;
-    height: auto;
+    /* height: auto; */
     padding: 100%;
   }
 

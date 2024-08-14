@@ -386,7 +386,9 @@ hr {
 }
 
 .content-card-final {
-    padding: 80px;
+    /* padding: 80px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -429,6 +431,9 @@ footer p {
     .content{
         padding-left: 2%;
         padding-right: 2%;
+    }
+    .inside-content-01{
+        width: auto;
     }
 }
 
@@ -504,7 +509,7 @@ footer p {
     }
 
     .inside-content-01 {
-        width: 80%;
+        width: auto;
         height: 350px;
     }
 
@@ -627,7 +632,7 @@ footer p {
     }
 
     .inside-content-01 {
-        width: 330px;
+        width: auto;
         height: auto;
     }
 
