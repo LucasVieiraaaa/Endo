@@ -105,7 +105,7 @@
   .card-carousel {
     min-width: 100%;
     /* height: auto; */
-    padding: 100%;
+    /* padding: 100%; */
   }
 
   .card-carousel .card {
@@ -144,5 +144,10 @@
   .image-container {
     width: 5em;
     height: 5em;
+  }
+  .card-carousel {
+    min-width: 100%;
+    /* height: auto; */
+    padding-bottom: 100%;
   }
 }

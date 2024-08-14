@@ -26,14 +26,7 @@
 }
 .pad{
     padding-right: 50px;
-    /* padding-left: 50px; */
 }
-
-/* .pad-button{
-    padding-right: 50px;
-    padding-left: 50px;
-    align-items: center;
-} */
 
 @media (max-width: 900px) {
     .text-justify {

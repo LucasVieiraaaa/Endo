@@ -258,6 +258,7 @@ h3.text-center {
         height: auto;
     }
     .sobreOcurso {
-        padding: 50px;
+        padding: 30px;
+        text-align: start;
     }
 }
