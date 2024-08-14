@@ -448,6 +448,15 @@ footer p {
     animation-fill-mode: forwards;
 }
 
+@media (max-width: 1085px){
+    .shadow-box {
+        width: auto;
+    }
+    .content{
+        padding-left: 2%;
+    }
+}
+
 @media (max-width: 920px) {
     .btn {
         text-align: center;
@@ -501,7 +510,10 @@ footer p {
         flex-direction: column;
         padding: 10px;
         padding-right: 10px;
-
+        margin: 10px;
+    }
+    .text-justify{
+        text-align: left !important;
     }
 
     .content-image {
@@ -546,6 +558,9 @@ footer p {
     }
 }
 
+@media (max-width: 853px) {
+    
+}
 @media (max-width: 480px) {
     header {
         display: flex;
