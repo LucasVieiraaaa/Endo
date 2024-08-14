@@ -377,31 +377,6 @@ details[open] summary {
     border-radius: 0px;
 }
 
-.btn02 {
-    background-color: #1d201d;
-    color: #ffffff;
-    width: 450px;
-    margin-top: 20px;
-    height: 55px;
-    font-size: 15px;
-    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-radius 0.3s ease-in-out;
-    padding: 10px 20px;
-    padding-bottom: 55px;
-    margin-top: 0px;
-    border: none;
-    border-radius: 1em;
-    text-align: center;
-    box-shadow: 5px 5px 20px rgba(189, 189, 189, 0.6);
-}
-
-.btn02:hover {
-    transform: scale(1.07);
-    background-color: #0e54b6;
-    color: white;
-    box-shadow: 10px 10px 30px rgba(189, 189, 189, 0.6);
-    border-radius: 0px;
-}
-
 hr {
     width: 90%;
     max-width: 700px;
@@ -534,8 +509,7 @@ footer p {
     }
 
     .btn,
-    .btn01,
-    .btn02 {
+    .btn01{
         width: 100%;
         height: auto;
     }
@@ -559,7 +533,13 @@ footer p {
 }
 
 @media (max-width: 853px) {
-    
+    .btn01{
+        padding: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 1em;
+        font-size: 13px;
+    }
 }
 @media (max-width: 480px) {
     header {
@@ -654,8 +634,6 @@ footer p {
     footer p {
         font-size: 12px;
     }
-
-    .btn01,
     .btn {
         background-color: #1d201d;
         color: #ffffff;
@@ -670,7 +648,6 @@ footer p {
         width: 100%;
         overflow: hidden;
     }
-
     h3 {
         text-align: center;
         margin: 10px 0;
@@ -683,7 +660,7 @@ footer p {
     }
 
     .center-icon-02 {
-        padding-top: 0;
+        padding-top: 0px;
     }
 
     .form-inscricao {

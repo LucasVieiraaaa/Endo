@@ -56,7 +56,7 @@
     align-items: center;
     padding-top: 10px;
     padding-bottom: 0px;
-    max-width: 800px;
+    max-width: 1500px;
     border-radius: 1em;
 }
 
@@ -209,8 +209,24 @@ h3.text-center {
     font-size: 17px;
     color: red;
 }
-
-
+.container-endo{
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+    box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 1em;
+    padding: 50px;
+}
+.content-endo-icon{
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+    box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
 @media (max-width: 1200px) {
     .center-icon-02 {
         padding-top: 150px;

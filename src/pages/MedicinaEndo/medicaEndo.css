@@ -54,10 +54,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10px;
     padding-bottom: 0px;
-    max-width: 700px;
-    border-radius: 1em;
+    max-width: 1500px;
 }
 
 .img-container-wrapper {
@@ -134,7 +132,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 170px;
+    padding-top: 150px;
     padding-bottom: 20px;
     border-radius: 50%;
 }
@@ -206,6 +204,25 @@ h3.text-center {
 .invalid {
     font-size: 17px;
     color: red;
+}
+
+.container-endo{
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+    box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 1em;
+    padding: 50px;
+}
+.content-endo-icon{
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+    box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+    padding: 20px;
 }
 
 @media (max-width: 1200px) {
