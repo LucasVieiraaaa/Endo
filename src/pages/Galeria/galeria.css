@@ -43,6 +43,12 @@
     height: auto;
 }
 
+.button-icon-img {
+    background-color: transparent;
+    border: none;
+}
+
+
 @media (max-width: 768px) {
     .gallery-item {
         margin: 10px;
