@@ -283,8 +283,8 @@ details[open] summary {
 .shadow-box {
     display: flex;
     align-items: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    padding-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.144);
+    padding-bottom: 1em;
     padding-right: 10%;
     border-radius: 1em;
     background-color: #ffffff;
@@ -293,13 +293,13 @@ details[open] summary {
 }
 
 .content-image {
-    margin-right: 20px;
-    margin-left: 5px;
+    margin-left: -20px;
+    margin-top: -20px;
     height: auto;
     width: auto;
     margin-right: 50px;
     border-radius: 10px;
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.329);
 }
 
 .content p {
