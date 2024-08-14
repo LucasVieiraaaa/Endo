@@ -1,0 +1,36 @@
+.btn-back-div {
+    padding-top: 8rem;
+    padding-left: 1.5rem;
+}
+
+.btn-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 12rem; 
+    height: auto;
+    padding: 1rem 2rem;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.144);
+    border-radius: 0.8rem;
+    border: 0;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+@media (max-width: 600px) {
+    .btn-back {
+        width: 100%;
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+.btn-back:hover {
+    transform: scale(1.02);
+    background-color: #34b4f2;
+    color: white;
+    box-shadow: 10px 10px 30px rgba(189, 189, 189, 0.6);
+    border-radius: 0px;
+    text-decoration: none;
+}
