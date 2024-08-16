@@ -7,6 +7,11 @@ body {
     background-color: #FFFFFF;
 }
 
+.header-space{
+    padding: 4em;
+    background-color: #1d201d;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -434,6 +439,7 @@ footer p {
     }
     .inside-content-01{
         width: auto;
+        margin: 1.5em;
     }
 }
 
@@ -490,10 +496,12 @@ footer p {
         flex-direction: column;
         padding: 10px;
         padding-right: 10px;
-        margin: 10px;
+        margin: 20px;
+        margin-bottom: 0px;
     }
     .text-justify{
         text-align: left !important;
+        padding: 10px;
     }
 
     .content-image {
@@ -571,6 +579,11 @@ footer p {
         width: 100%;
     }
 
+    .header-space{
+        padding: 0em;
+        background-color: #1d201d;
+    }
+
     nav ul {
         display: flex;
         flex-direction: column;
@@ -634,6 +647,7 @@ footer p {
     .inside-content-01 {
         width: auto;
         height: auto;
+        margin: 20px;
     }
 
     footer p {

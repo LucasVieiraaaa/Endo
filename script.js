@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 //Versão do Sistema
-let version = "0.250v";
+let version = "0.26v";
 document.getElementById('systemVersion').textContent = version;
 
 //Redes-Sociais
