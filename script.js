@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 //Versão do Sistema
-let version = "0.27v";
+let version = "0.3v";
 document.getElementById('systemVersion').textContent = version;
 
 //Redes-Sociais
@@ -95,10 +95,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 //Número Telefone
 
-// let numCell = '(xx) xxxxx-xxxx';
+let numCell = '(71) XXXXX-XXXX';
 // let numCris = '(xx) xxxxx-xxxx';
 
-// document.getElementById('Cellphone').textContent = numCell;
+document.getElementById('Cellphone').textContent = numCell;
 // document.getElementById('NumCris').textContent = numCris;
 
 //Conteudo Header

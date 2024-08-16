@@ -330,7 +330,7 @@ details[open] summary {
 .btn {
     background-color: #1d201d;
     color: #ffffff;
-    width: 92%;
+    width: auto;
     height: 50px;
     font-size: 1em;
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-radius 0.3s ease-in-out;
@@ -338,14 +338,13 @@ details[open] summary {
     border: none;
     border-radius: 0.8em;
     text-align: center;
-    box-shadow: 5px 5px 20px rgba(189, 189, 189, 0.6);
 }
 
 .btn:hover {
     transform: scale(1.02);
     background-color: #34b4f2;
     color: white;
-    box-shadow: 10px 10px 30px rgba(189, 189, 189, 0.6);
+    /* box-shadow: 10px 10px 30px rgba(189, 189, 189, 0.6); */
     border-radius: 0px;
 }
 

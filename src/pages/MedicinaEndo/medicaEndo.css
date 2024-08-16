@@ -139,6 +139,12 @@
 .form-group {
     font-size: 14px;
 }
+.form-container {
+    background-image: url('../../../base/media/imgs/endo-03.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .form-control {
     width: 100%;
@@ -259,5 +265,8 @@ h3.text-center {
     .sobreOcurso {
         padding: 30px;
         text-align: start;
+    }
+    .container-endo{
+        padding: 1.1em;
     }
 }
