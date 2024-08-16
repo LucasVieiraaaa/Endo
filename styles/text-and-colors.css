@@ -13,7 +13,8 @@
 .dark-grey {
     color: #818181;
 }
-.darker-grey{
+
+.darker-grey {
     color: #1d201d;
 }
 
@@ -24,8 +25,16 @@
 .text-19px {
     font-size: 19px;
 }
-.pad{
+
+.pad {
     padding-right: 50px;
+}
+
+
+.gradient-background {
+    background: rgb(55,55,55);
+    background: linear-gradient(0deg, rgba(55,55,55,1) 0%, rgba(34,36,34,1) 33%, rgba(29,32,29,1) 68%);
+    padding: 1.5em;
 }
 
 @media (max-width: 900px) {
@@ -42,6 +51,7 @@
     .text-19px {
         font-size: 16px;
     }
+
     .pad-button {
         padding-right: 50px;
         padding-left: 50px;
@@ -49,8 +59,12 @@
         margin: 0 auto;
         text-align: center;
     }
-    .pad{
+
+    .pad {
         padding-right: 50px;
         padding-left: 50px;
+    }
+    .validornot{
+        font-size: 0.9em
     }
 }

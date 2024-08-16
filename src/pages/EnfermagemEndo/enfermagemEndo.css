@@ -54,10 +54,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10px;
     padding-bottom: 0px;
     max-width: 1500px;
-    border-radius: 1em;
 }
 
 .img-container-wrapper {
@@ -87,7 +85,7 @@
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
-    border-radius: 1em;
+    /* border-radius: 0.5em !important */
 }
 
 .centralizador {
@@ -135,8 +133,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    padding-top: 170px;
-    padding-bottom: 20px;
+    padding-top: 150px;
+    padding-bottom: 25px;
     box-sizing: border-box;
 }
 
@@ -269,14 +267,14 @@ h3.text-center {
 @media (max-width: 576px) {
     .center-icon-02 {
         padding-top: 0px;
-        padding-bottom: 0;
+        padding-bottom: 25px;
     }
     .img-med-container {
         width: calc(100% - 10px);
         height: auto;
     }
     .img-med{
-        border-radius: 1em !important;
+        border-radius: 0.3em !important;
     }
     .center-icon-02{
         padding-top: 0px;

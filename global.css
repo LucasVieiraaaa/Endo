@@ -41,7 +41,7 @@ header.shrink {
 }
 
 .small-icon {
-    height: 45px;
+    height: 1.5em;
     padding-left: 20px;
 }
 
@@ -103,7 +103,7 @@ details {
 details ul {
     position: absolute;
     top: 100%;
-    left: -80%;
+    left: -105%;
     margin-left: -50%;
     animation: fadeIn 0.5s ease-in-out;
     list-style: none;
@@ -124,19 +124,11 @@ details ul li {
 
 details ul li a {
     display: block;
-    padding: 10px;
+    padding: 1.1em;
     color: white;
     text-decoration: none;
     transition: 0.2s;
-    width: 170px;
-}
-
-details ul li a:hover {
-    /* color: #229251; */
-}
-
-.details-social-media-01 {
-    /* Comments */
+    width: 12em;
 }
 
 .details-social-media-01:hover {
@@ -290,7 +282,7 @@ details[open] summary {
     align-items: center;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.144);
     padding-bottom: 1em;
-    padding-right: 10%;
+    padding-right: 5%;
     border-radius: 1em;
     background-color: #ffffff;
     height: auto;
@@ -470,7 +462,7 @@ footer p {
 
     .small-icon,
     .small-icon-02 {
-        height: 30px;
+        height: 1.3em;
     }
 
     nav ul {
@@ -600,6 +592,15 @@ footer p {
         font-size: 16px;
         text-align: center;
     }
+    
+    details ul {
+        left: -135%;
+        padding: 1.1em;
+    }
+    .details-contato {
+        left: -121%;
+        padding: 1.1em;
+    }
 
     details ul li {
         margin: 0;
@@ -624,7 +625,7 @@ footer p {
 
     .small-icon,
     .small-icon-02 {
-        height: 1.5em;
+        height: 1.1em;
     }
 
     .content {
@@ -696,7 +697,7 @@ footer p {
 
     .responsive-h3-02 {
         margin: 0.2em 0;
-        padding: 20px;
+        padding: 0.6em;
         padding-bottom: 0px;
     }
 
