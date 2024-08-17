@@ -32,8 +32,8 @@
 
 
 .gradient-background {
-    background: rgb(55,55,55);
-    background: linear-gradient(0deg, rgba(55,55,55,1) 0%, rgba(34,36,34,1) 33%, rgba(29,32,29,1) 68%);
+    background: #2c2c2c;
+
     padding: 1.5em;
 }
 

@@ -299,6 +299,10 @@ details[open] summary {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.329);
 }
 
+.espelhar-horizontal {
+    transform: scaleX(-1);
+}
+
 .content p {
     font-size: 1em;
 }
