@@ -30,11 +30,18 @@
     padding-right: 50px;
 }
 
-
 .gradient-background {
     background: #2c2c2c;
 
     padding: 1.5em;
+}
+
+nav ul li{
+    color: #40b9fa;
+}
+
+.light-blue{
+    color: #40b9fa;
 }
 
 @media (max-width: 900px) {
