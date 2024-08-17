@@ -1,6 +1,6 @@
 .btn-back-div {
-    padding-top: 8rem;
-    padding-left: 1.5rem;
+    padding-top: 9rem;
+    padding-left: 12em;
 }
 
 .btn-back {
@@ -18,11 +18,38 @@
     transition: background-color 0.3s, box-shadow 0.3s;
 }
 
+.terms-div{
+    padding-top: 2em;
+    padding-right: 12em;
+    padding-left: 12em;
+    padding-bottom: 4em;
+    text-align: justify;
+}
+
 @media (max-width: 600px) {
     .btn-back {
         width: 100%;
         padding: 0.8rem 1.5rem;
         font-size: 0.9rem;
+    }
+    .terms-div{
+        padding-top: 2em;
+        padding-right: 1.5em;
+        padding-left: 1.5em;
+        padding-bottom: 4em;
+    }
+    .btn-back-div {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 26.5%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .btn-back-div {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 24%;
     }
 }
 
