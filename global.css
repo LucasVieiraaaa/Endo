@@ -30,7 +30,7 @@ header {
 
 header.shrink {
     height: 70px;
-    padding: 15px;
+    padding: 30px;
     padding-right: 70px;
 }
 
@@ -341,10 +341,8 @@ details[open] summary {
 }
 
 .btn:hover {
-    transform: scale(1.02);
     background-color: #34b4f2;
     color: white;
-    /* box-shadow: 10px 10px 30px rgba(189, 189, 189, 0.6); */
     border-radius: 0px;
 }
 
@@ -365,7 +363,6 @@ details[open] summary {
 }
 
 .btn01:hover {
-    transform: scale(1.01);
     background-color: #34b4f2;
     color: white;
     box-shadow: 10px 10px 30px rgba(189, 189, 189, 0.6);

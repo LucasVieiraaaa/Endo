@@ -112,6 +112,7 @@
     -webkit-box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
     -moz-box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
     box-shadow: 10px 2px 47px 15px rgba(0, 0, 0, 0.06);
+    margin-top: 1.9em;
 }
 
 .center-icon {
@@ -139,7 +140,7 @@
 }
 
 .form-group {
-    font-size: 14px;
+    font-size: 13px;
 }
 .form-container {
     background-image: url('../../../base/media/imgs/endo-03.png');
@@ -273,7 +274,7 @@ h3.text-center {
 @media (max-width: 576px) {
     .center-icon-02 {
         padding-top: 0px;
-        padding-bottom: 25px;
+        padding-bottom: 15px;
     }
     .img-med-container {
         width: calc(100% - 10px);
@@ -291,6 +292,12 @@ h3.text-center {
     }
     .container-endo{
         padding: 1.1em;
+    }
+}
+
+@media (max-width:430px){
+    .form-inscricao{
+        gap: 0.1em;
     }
 }
 
