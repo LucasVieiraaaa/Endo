@@ -38,13 +38,6 @@
     text-align: center;
 }
 
-.galery-tittle {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    gap: 0.3em;
-}
-
 .col-md-4 {
     max-width: 500px;
     height: auto;
