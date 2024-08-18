@@ -32,8 +32,8 @@
 
 .gradient-background {
     background: #2c2c2c;
-
     padding: 1.5em;
+    padding-bottom: 0;
 }
 
 nav ul li{
