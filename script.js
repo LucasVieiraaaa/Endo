@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 //Versão do Sistema
-let version = "0.395v";
+let version = "0.399v";
 document.getElementById('systemVersion').textContent = version;
 
 //Redes-Sociais
@@ -100,22 +100,10 @@ let numCell = '(71) XXXXX-XXXX';
 document.getElementById('Cellphone').textContent = numCell;
 // document.getElementById('NumCris').textContent = numCris;
 
-//Conteudo Header
-
-// let home = 'Home';
-// let cursos = 'Cursos';
-// let galeria = 'Galeria';
-// let imprensa = 'Imprensa';
-// let contato = 'Contato';
-
-// let medicina = 'Medicina';
-// let enfermagem = 'Enfermagem';
-
-// document.getElementById('Home').textContent = home;
-// document.getElementById('Cursos').textContent = cursos; 
-// document.getElementById('Galeria').textContent =  galeria;
-// document.getElementById('Imprensa').textContent = imprensa;
-// document.getElementById('Contato').textContent = contato;
-
-// document.getElementById('Medicina').textContent = medicina;
-// document.getElementById('Enfermagem').textContent = enfermagem;
+document.addEventListener("DOMContentLoaded", () => {
+    const horizontalCarousel = document.querySelector(".horizontal-carousel");
+    const firstHorizontalItemClone = horizontalCarousel.firstElementChild.cloneNode(true);
+    
+    horizontalCarousel.appendChild(firstHorizontalItemClone);
+  });
+  

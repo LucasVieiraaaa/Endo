@@ -401,7 +401,6 @@ hr {
 }
 
 .content-card-final {
-    /* padding: 80px; */
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
@@ -409,6 +408,51 @@ hr {
     gap: 40px;
 }
 
+.partnership-section {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.carousel-wrapper {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.partnership-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+    /* animation: scroll 20s linear infinite; */
+}
+
+/* @keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+} */
+
+.logo-container {
+    text-align: center;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.logo-container:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+.logo-container img {
+    width: 100%;
+    max-width: 15em;
+    height: auto;
+    object-fit: contain;
+}
 footer {
     background-color: #1d201d;
     color: white;
@@ -465,6 +509,12 @@ footer p {
     }
 }
 
+@media (max-width: 1024px){
+    .content-image{
+        margin-left: -10px;
+    }
+}
+
 
 @media (max-width: 920px) {
     .btn {
@@ -499,7 +549,16 @@ footer p {
     .logo img {
         height: 70px;
     }
+    .partnership-logos {
+        gap: 2em;
+    }
 
+    .logo-container {
+        max-width: 150px;
+    }
+    .logo-container{
+        filter: grayscale(0%);
+    }
     .small-icon,
     .small-icon-02 {
         height: 1.3em;
@@ -615,7 +674,16 @@ footer p {
         padding: 0em;
         background-color: #1d201d;
     }
+    .partnership-logos {
+        flex-direction: column;
+        gap: 1.5em;
+        margin: 1em;
+        padding-top: 3em;
+    }
 
+    .logo-container {
+        max-width: 100%;
+    }
     nav ul {
         display: flex;
         flex-direction: column;
