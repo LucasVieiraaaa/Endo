@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 //Versão do Sistema
-let version = "0.39v";
+let version = "0.395v";
 document.getElementById('systemVersion').textContent = version;
 
 //Redes-Sociais
@@ -97,7 +97,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 let numCell = '(71) XXXXX-XXXX';
 // let numCris = '(xx) xxxxx-xxxx';
-
 document.getElementById('Cellphone').textContent = numCell;
 // document.getElementById('NumCris').textContent = numCris;
 

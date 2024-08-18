@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
     color: #7b7a7b;
@@ -537,7 +537,7 @@ footer p {
     }
 
     .content-image {
-        margin: 0 auto 10px auto;
+        margin: 10px auto 10px auto;
         height: 100px;
         width: auto;
     }
@@ -679,6 +679,7 @@ footer p {
 
     .content p {
         font-size: 14px;
+        padding: 1em;
     }
 
     .content-01 {
