@@ -100,10 +100,10 @@ let numCell = '(71) XXXXX-XXXX';
 document.getElementById('Cellphone').textContent = numCell;
 // document.getElementById('NumCris').textContent = numCris;
 
-document.addEventListener("DOMContentLoaded", () => {
-    const horizontalCarousel = document.querySelector(".horizontal-carousel");
-    const firstHorizontalItemClone = horizontalCarousel.firstElementChild.cloneNode(true);
+// document.addEventListener("DOMContentLoaded", () => {
+//     const horizontalCarousel = document.querySelector(".horizontal-carousel");
+//     const firstHorizontalItemClone = horizontalCarousel.firstElementChild.cloneNode(true);
     
-    horizontalCarousel.appendChild(firstHorizontalItemClone);
-  });
+//     horizontalCarousel.appendChild(firstHorizontalItemClone);
+//   });
   
