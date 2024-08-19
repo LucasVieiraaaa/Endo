@@ -36,11 +36,11 @@
     padding-bottom: 0;
 }
 
-nav ul li{
+nav ul li {
     color: #40b9fa;
 }
 
-.light-blue{
+.light-blue {
     color: #40b9fa;
 }
 
@@ -71,7 +71,8 @@ nav ul li{
         padding-right: 50px;
         padding-left: 50px;
     }
-    .validornot{
+
+    .validornot {
         font-size: 0.9em
     }
 }
