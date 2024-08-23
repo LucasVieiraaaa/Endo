@@ -44,10 +44,17 @@ nav ul li {
     color: #40b9fa;
 }
 
+.align-icon-text {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+}
+
 @media (max-width: 900px) {
     .text-justify {
         text-align: justify;
     }
+
     .text-left,
     .text-right {
         text-align: justify;
