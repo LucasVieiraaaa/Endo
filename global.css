@@ -265,7 +265,7 @@ details[open] summary {
 
 .content {
     flex: 1;
-    background-color: #FFFFFF;
+    background-color: whitesmoke;
     padding: 50px;
     padding-left: 150px;
     padding-right: 150px;
@@ -327,7 +327,7 @@ details[open] summary {
     margin: 0px;
     padding: 50px;
     text-align: center;
-    width: 40%;
+    width: 63%;
     height: auto;
 }
 
