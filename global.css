@@ -9,14 +9,20 @@ body {
 
 .header-space {
     padding: 4em;
-    background-color: #1d201d;
+    background-color: #05426a;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #101110;
+    background: linear-gradient(135deg, 
+    #02648a 40%,
+    #1cb6e4 20%, 
+    #e9d1fd 15%, 
+    #477bd3 15%, 
+    #05426a 10%
+  );
     padding: 30px;
     padding-right: 70px;
     height: 150px;
@@ -132,7 +138,7 @@ details ul li a {
 }
 
 .details-social-media-01:hover {
-    color: rgb(46, 130, 255);
+    color: rgb(72, 94, 128);
 }
 
 .details-social-media-02 {
@@ -426,7 +432,6 @@ hr {
 }
 
 .carousel-wrapper {
-    /* overflow: hidden; */
     width: 100%;
     margin-top: 20px;
 }
@@ -467,7 +472,7 @@ hr {
 }
 
 footer {
-    background-color: #1d201d;
+    background-color: #02648a;
     color: white;
     padding: 30px;
     display: flex;

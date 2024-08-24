@@ -29,15 +29,17 @@
 .pad {
     padding-right: 50px;
 }
+.fs-1-8-em{
+    font-size: 1.8em;
+}
 
 .gradient-background {
-    /* background: white; */
     padding: 1.5em;
     padding-bottom: 0;
 }
 
 nav ul li {
-    color: #40b9fa;
+    color: #ffffff;
 }
 
 .light-blue {
