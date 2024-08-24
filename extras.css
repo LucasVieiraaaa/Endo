@@ -1,15 +1,15 @@
 .bg-image-14 {
     background-image: url(base/media/imgs/endo-14.png);
-    background-repeat: no-repeat; /* Evita a repetição da imagem */
-    background-size: cover; /* Faz a imagem se adaptar ao tamanho do contêiner */
-    background-position: center; /* Centraliza a imagem no contêiner */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .bg-image-12 {
     background-image: url(base/media/imgs/endo-12.png);
-    background-repeat: no-repeat; /* Evita a repetição da imagem */
-    background-size: cover; /* Faz a imagem se adaptar ao tamanho do contêiner */
-    background-position: center; /* Centraliza a imagem no contêiner */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .center-icon {
     display: flex;

@@ -43,6 +43,9 @@
         padding-bottom: 2rem;
         padding-left: 26.5%;
     }
+    .responsive-terms{
+        text-align: left;
+    }
 }
 
 @media screen and (max-width: 375px){
@@ -50,6 +53,9 @@
         padding-top: 1rem;
         padding-bottom: 1rem;
         padding-left: 24%;
+    }
+    .responsive-terms{
+        text-align: left;
     }
 }
 
