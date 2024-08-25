@@ -16,13 +16,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(135deg, 
+    background-color: #02648a;
+    /* background: linear-gradient(135deg, 
     #02648a 40%,
     #1cb6e4 20%, 
     #e9d1fd 15%, 
     #477bd3 15%, 
     #05426a 10%
-  );
+  ); */
     padding: 30px;
     padding-right: 70px;
     height: 130px;
@@ -138,7 +139,7 @@ details ul li a {
 }
 
 .details-social-media-01:hover {
-    color: rgb(72, 94, 128);
+    color: #40b9fa;
 }
 
 .details-social-media-02 {
