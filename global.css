@@ -305,7 +305,7 @@ details[open] summary {
     border-radius: 10px;
     box-sizing: border-box;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
-                0 2px 4px rgba(0, 0, 0, 0.08); 
+        0 2px 4px rgba(0, 0, 0, 0.08);
 }
 
 .espelhar-horizontal {
@@ -326,7 +326,7 @@ details[open] summary {
     margin: 0px auto;
     box-sizing: border-box;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
-                0 2px 4px rgba(0, 0, 0, 0.08); 
+        0 2px 4px rgba(0, 0, 0, 0.08);
     padding: 550px;
     border-radius: 1em;
     background-color: #FFFFFF;
@@ -416,7 +416,7 @@ hr {
     padding: 1em;
     border-radius: 0.8em;
     margin: 1em;
-    width:auto;
+    width: auto;
 }
 
 .content-card-final {
@@ -685,8 +685,7 @@ footer p {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        background-color: #101110;
-        padding: 6em;
+        /* padding: 6em; */
         height: auto;
         position: static;
         width: 100%;
@@ -697,8 +696,8 @@ footer p {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        background-color: #101110;
-        padding: 30px;
+        background-color: #02648a;
+        /* padding: 30px; */
         height: auto;
         position: static;
         width: 100%;
@@ -706,7 +705,15 @@ footer p {
 
     .header-space {
         padding: 0em;
-        background-color: #1d201d;
+        background-color: #02648a;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
     }
 
     .partnership-logos {
@@ -763,7 +770,7 @@ footer p {
     }
 
     .logo img {
-        max-width: 100%;
+        max-width: 50%;
         height: auto;
         margin-top: 10px;
     }
