@@ -43,7 +43,7 @@
 
 .content-cursos-content h3{
     font-size: 35px;
-    color: #02648a;
+    color: #34b4f2;
 }
 
 .content-cursos-content p{
@@ -169,8 +169,8 @@
 }
 
 .form-control.valid {
-    border-color: #02648a;
-    box-shadow: 0 0 0 1px #02648a;
+    border-color: #34b4f2;
+    box-shadow: 0 0 0 1px #34b4f2;
 }
 
 .form-control.invalid {
@@ -191,7 +191,7 @@
 
 .btn03:hover {
     width: 100%;
-    background-color: #02648a;
+    background-color: #34b4f2;
     color: white;
     padding: 1em;
     border-radius: 0.5em;
@@ -207,7 +207,7 @@ h3.text-center {
 
 .valid {
     font-size: 17px;
-    color: #02648a;
+    color: #34b4f2;
 }
 
 .invalid {
